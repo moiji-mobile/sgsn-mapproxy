@@ -1,0 +1,14 @@
+{
+	"category" : "MAPProxy-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mapProxy" ],
+	"name" : "MAPProxyReadDelegate",
+	"pools" : [
+		 ],
+	"super" : "OsmoMessageIPAReadDelegate",
+	"type" : "normal" }

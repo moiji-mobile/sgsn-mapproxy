@@ -2,6 +2,7 @@
 	"class" : {
 		"readFrom:" : "HolgerHansPeterFreyther 12/14/2014 13:35" },
 	"instance" : {
+		"dispatchMAPProxyOn:" : "HolgerHansPeterFreyther 12/14/2014 19:23",
 		"parseOne:attribute:" : "HolgerHansPeterFreyther 12/14/2014 15:50",
 		"readFrom:" : "HolgerHansPeterFreyther 12/14/2014 15:52",
 		"writeHeaderOn:" : "HolgerHansPeterFreyther 12/14/2014 13:50" } }

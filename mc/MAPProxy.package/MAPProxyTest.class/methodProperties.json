@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "HolgerHansPeterFreyther 12/14/2014 20:12",
+		"testSendAuthenticationInfo" : "HolgerHansPeterFreyther 12/14/2014 20:35",
+		"testWrongMessage" : "HolgerHansPeterFreyther 12/14/2014 19:26" } }

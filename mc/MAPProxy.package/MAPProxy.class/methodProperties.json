@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"asn1Model" : "HolgerHansPeterFreyther 12/14/2014 19:04",
+		"asn1Model:" : "HolgerHansPeterFreyther 12/14/2014 20:39",
+		"defaultAsn1Model" : "HolgerHansPeterFreyther 12/14/2014 19:05" },
+	"instance" : {
+		"endPoint:" : "HolgerHansPeterFreyther 12/14/2014 19:16",
+		"localSCCPAddress" : "HolgerHansPeterFreyther 12/14/2014 19:56",
+		"remoteSCCPAddressForIMSI:" : "HolgerHansPeterFreyther 12/14/2014 20:01",
+		"returnSendAuthenticationResultFor:with:on:" : "HolgerHansPeterFreyther 12/14/2014 20:18",
+		"sendAuthenticationInfo:for:" : "HolgerHansPeterFreyther 12/14/2014 20:03",
+		"vlrNumber:" : "HolgerHansPeterFreyther 12/14/2014 19:56" } }
