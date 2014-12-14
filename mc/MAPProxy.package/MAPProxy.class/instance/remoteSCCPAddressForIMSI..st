@@ -4,7 +4,7 @@ remoteSCCPAddressForIMSI: anIMSI
 	"TODO: Generalize the map..."
 	gt := anIMSI.
 	(gt beginsWith: '27408') ifTrue: [
-		gt := gt replaceFrom: 1 to: 5 with: '35438'].
+		gt := gt replaceFrom: 1 to: 6 with: '354385'].
 
 
 	^ (SCCPAddress createForSSN: #hlr)
