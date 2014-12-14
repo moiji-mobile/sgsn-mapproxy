@@ -1,6 +1,6 @@
 as yet unclassified
 testSendAuthenticationInfo
-	| msg invoked resp respMsg |
+	| invoked resp respMsg |
 
 	testEndPoint
 		onDialogue: [:diag |
@@ -15,13 +15,12 @@ testSendAuthenticationInfo
 					yourself).
 				diag requestTcEnd: false]].
 
-	msg := MAPProxyMessageBase readFrom: MAPProxySendAuthenticationInfoTest new exampleData readStream.
-	msg dispatchMAPProxyOn: readDelegate.
+	self inject: MAPProxySendAuthenticationInfoTest new exampleData.
 	self deny: readDelegate connection isTerminated.
 	self assert: invoked.
 	self assert: readDelegate connection writeQueue size equals: 1.
 
-	"TODO: We should inject an IPA muxed message and demux it here as well."
+	"TODO: We should demux it here properly!"
 	resp := readDelegate connection writeQueue next.
 	respMsg := MAPProxyMessageBase readFrom: (resp readStream skip: 4; yourself).
 	self assert: respMsg class equals: MAPProxySendAuthenticationInfoResult.

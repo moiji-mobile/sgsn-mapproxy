@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"inject:" : "HolgerHansPeterFreyther 12/14/2014 20:46",
 		"setUp" : "HolgerHansPeterFreyther 12/14/2014 20:12",
-		"testSendAuthenticationInfo" : "HolgerHansPeterFreyther 12/14/2014 20:35",
+		"testSendAuthenticationInfo" : "HolgerHansPeterFreyther 12/14/2014 20:43",
 		"testWrongMessage" : "HolgerHansPeterFreyther 12/14/2014 19:26" } }
