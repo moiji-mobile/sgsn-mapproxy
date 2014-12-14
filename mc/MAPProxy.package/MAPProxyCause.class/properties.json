@@ -1,0 +1,14 @@
+{
+	"category" : "MAPProxy-Messages",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MAPProxyCause",
+	"pools" : [
+		 ],
+	"super" : "TLVOctetValue",
+	"type" : "normal" }

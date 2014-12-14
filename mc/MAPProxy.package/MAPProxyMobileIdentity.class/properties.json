@@ -1,0 +1,14 @@
+{
+	"category" : "MAPProxy-Messages",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MAPProxyMobileIdentity",
+	"pools" : [
+		 ],
+	"super" : "TLVOctetValue",
+	"type" : "normal" }

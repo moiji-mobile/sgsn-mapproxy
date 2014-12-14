@@ -1,0 +1,15 @@
+{
+	"category" : "MAPProxy-Messages",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mobileIdentity",
+		"cause" ],
+	"name" : "MAPProxySendAuthenticationInfoError",
+	"pools" : [
+		 ],
+	"super" : "MAPProxyMessageBase",
+	"type" : "normal" }

@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"attributeTlvDescription" : "HolgerHansPeterFreyther 12/14/2014 16:01",
+		"readFrom:with:" : "HolgerHansPeterFreyther 12/14/2014 16:19",
+		"write:on:with:" : "HolgerHansPeterFreyther 12/14/2014 16:26" },
+	"instance" : {
+		"kc" : "HolgerHansPeterFreyther 12/14/2014 16:23",
+		"kc:" : "HolgerHansPeterFreyther 12/14/2014 16:20",
+		"rand" : "HolgerHansPeterFreyther 12/14/2014 16:22",
+		"rand:" : "HolgerHansPeterFreyther 12/14/2014 16:20",
+		"sres" : "HolgerHansPeterFreyther 12/14/2014 16:22",
+		"sres:" : "HolgerHansPeterFreyther 12/14/2014 16:20" } }
