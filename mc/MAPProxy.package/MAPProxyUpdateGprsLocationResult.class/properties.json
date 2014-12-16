@@ -1,0 +1,16 @@
+{
+	"category" : "MAPProxy-Messages",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mobileIdentity",
+		"pdpInfoComplete",
+		"pdpInfos" ],
+	"name" : "MAPProxyUpdateGprsLocationResult",
+	"pools" : [
+		 ],
+	"super" : "MAPProxyMessageBase",
+	"type" : "normal" }

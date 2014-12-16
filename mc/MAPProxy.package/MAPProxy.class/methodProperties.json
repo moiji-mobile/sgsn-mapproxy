@@ -9,5 +9,7 @@
 		"remoteSCCPAddressForIMSI:" : "HolgerHansPeterFreyther 12/14/2014 21:01",
 		"returnSendAuthenticationFailureFor:on:" : "HolgerHansPeterFreyther 12/16/2014 22:48",
 		"returnSendAuthenticationResultFor:with:on:" : "HolgerHansPeterFreyther 12/14/2014 20:18",
+		"returnUpdateGprsLocationResultFor:with:on:" : "HolgerHansPeterFreyther 12/16/2014 23:07",
 		"sendAuthenticationInfo:for:" : "HolgerHansPeterFreyther 12/14/2014 20:03",
+		"updateGprsLocation:for:" : "HolgerHansPeterFreyther 12/16/2014 23:21",
 		"vlrNumber:" : "HolgerHansPeterFreyther 12/14/2014 19:56" } }

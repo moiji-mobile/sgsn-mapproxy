@@ -1,0 +1,14 @@
+{
+	"category" : "MAPProxy-Messages",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MAPProxyPDPInfoComplete",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
