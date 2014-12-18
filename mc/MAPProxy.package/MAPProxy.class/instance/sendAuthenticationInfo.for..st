@@ -6,7 +6,7 @@ sendAuthenticationInfo: aRequest for: aDelegate
 	calledGT := self remoteSCCPAddressForIMSI: aRequest mobileIdentity fromTBCD.
 
 	operationName := 'sendAuthenticationInfoV2'.
-	dialogue := endPoint newDialogue.
+	dialogue := self newDialogue.
 	dialogue
 		onPAbort: [self returnSendAuthenticationFailureFor: aRequest on: aDelegate];
 		onUAbort: [self returnSendAuthenticationFailureFor: aRequest on: aDelegate].

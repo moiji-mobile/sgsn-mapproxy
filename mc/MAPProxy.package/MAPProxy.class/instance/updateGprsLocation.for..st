@@ -11,7 +11,7 @@ updateGprsLocation: aRequest for: aDelegate
 				at: 'sgsn-Number' put: vlrNumber toE164;
 				at: 'sgsn-Address' put: 'AABBCCDD';
 				yourself.
-	dialogue := endPoint newDialogue.
+	dialogue := self newDialogue.
 	dialogue
 		onPAbort: [self returnUpdateGprsLocationFailureFor: aRequest on: aDelegate];
 		onUAbort: [self returnUpdateGprsLocationFailureFor: aRequest on: aDelegate];
