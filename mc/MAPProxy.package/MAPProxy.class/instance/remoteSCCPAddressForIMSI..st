@@ -1,11 +1,7 @@
 as yet unclassified
 remoteSCCPAddressForIMSI: anIMSI
 	| gt |
-	"TODO: Generalize the map..."
-	gt := anIMSI.
-	(gt beginsWith: '27408') ifTrue: [
-		gt := gt replaceFrom: 1 to: 6 with: '354385'].
-
+	gt := (self gtForIMSI: anIMSI) prepare: anIMSI.
 
 	^ (SCCPAddress createForSSN: #hlr)
 		routedOnSSN: false;

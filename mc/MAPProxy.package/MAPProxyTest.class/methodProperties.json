@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"inject:" : "HolgerHansPeterFreyther 12/14/2014 20:46",
-		"setUp" : "HolgerHansPeterFreyther 12/14/2014 20:12",
+		"setUp" : "HolgerHansPeterFreyther 12/19/2014 18:22",
 		"testSendAuthenticationInfo" : "HolgerHansPeterFreyther 12/19/2014 13:58",
 		"testSendAuthenticationInfoFailure" : "HolgerHansPeterFreyther 12/16/2014 22:49",
 		"testUpdateGprsLocation" : "HolgerHansPeterFreyther 12/16/2014 23:27",

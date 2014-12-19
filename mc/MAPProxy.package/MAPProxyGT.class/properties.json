@@ -1,15 +1,14 @@
 {
 	"category" : "MAPProxy-Core",
 	"classinstvars" : [
-		"asn1Model" ],
+		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "HolgerHansPeterFreyther 12/14/2014 19:10",
+	"commentStamp" : "",
 	"instvars" : [
-		"endPoint",
-		"vlrNumber",
-		"gts" ],
-	"name" : "MAPProxy",
+		"imsiRangeMatch",
+		"prefix" ],
+	"name" : "MAPProxyGT",
 	"pools" : [
 		 ],
 	"super" : "Object",

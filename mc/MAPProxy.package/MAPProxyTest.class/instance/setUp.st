@@ -13,5 +13,10 @@ setUp
 	mapProxy vlrNumber: '123'.
 	readDelegate mapProxy: mapProxy.
 
+	mapProxy addGT: (MAPProxyGT new
+						imsiRange: '.*' asRegex;
+						replaceStart: '123';
+						yourself).
+
 	testEndPoint connectTo: vlrEndPoint.
 	vlrEndPoint connectTo: testEndPoint.
