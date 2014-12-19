@@ -1,5 +1,5 @@
 as yet unclassified
-localSCCPAddress
+callingSCCPAddress
 	^ (SCCPAddress createForSSN: #vlr)
 		routedOnSSN: false;
 		gtiFromAddr:  (SCCPGlobalTitleTranslation new

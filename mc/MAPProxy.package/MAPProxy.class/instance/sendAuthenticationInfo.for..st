@@ -1,23 +1,14 @@
 as yet unclassified
 sendAuthenticationInfo: aRequest for: aDelegate
-	| callingGT calledGT operationName dialogue invocation |
+	| imsi gt |
 
-	callingGT := self localSCCPAddress.
-	calledGT := self remoteSCCPAddressForIMSI: aRequest mobileIdentity fromTBCD.
-
-	operationName := 'sendAuthenticationInfoV2'.
-	dialogue := self newDialogue.
-	dialogue
-		onPAbort: [self returnSendAuthenticationFailureFor: aRequest on: aDelegate];
-		onUAbort: [self returnSendAuthenticationFailureFor: aRequest on: aDelegate].
-	invocation := dialogue requestTcInvokeNamed: operationName parameters:  aRequest mobileIdentity class: 1 timeout: 60.
-	invocation
-		onReturn: [self returnSendAuthenticationFailureFor: aRequest on: aDelegate];
-		onError: [self returnSendAuthenticationFailureFor: aRequest on: aDelegate];
-		onReject: [self returnSendAuthenticationFailureFor: aRequest on: aDelegate];
-		onLCancel: [self returnSendAuthenticationFailureFor: aRequest on: aDelegate];
-		onReturnLast: [:result | self returnSendAuthenticationResultFor: aRequest with: result on: aDelegate].
-	dialogue
-		requestTcBeginDestinationAddress: calledGT
-		originatingAddress: callingGT
-		applicationContextName: (dialogue applicationContextNamed: operationName).
+	imsi := 	aRequest mobileIdentity fromTBCD.
+	gt := self gtForIMSI: imsi.
+	gt operationForAuthentication new
+		dialogue: self newDialogue;
+		callingSCCPAddress: self callingSCCPAddress;
+		calledSCCPAddress: (self calledSCCPAddress: (gt prepare: imsi));
+		imsi: imsi;
+		onFailure: [self returnSendAuthenticationFailureFor: aRequest on: aDelegate];
+		onSuccess: [:result | self returnSendAuthenticationResultFor: aRequest with: result on: aDelegate];
+		start.

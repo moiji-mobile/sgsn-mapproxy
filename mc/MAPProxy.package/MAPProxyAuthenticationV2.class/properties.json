@@ -1,0 +1,19 @@
+{
+	"category" : "MAPProxy-Operations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dialogue",
+		"callingSCCPAddress",
+		"calledSCCPAddress",
+		"imsi",
+		"onFailure",
+		"onSuccess" ],
+	"name" : "MAPProxyAuthenticationV2",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

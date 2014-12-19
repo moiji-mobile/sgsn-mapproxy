@@ -1,9 +1,12 @@
 as yet unclassified
 updateGprsLocation: aRequest for: aDelegate
-	| callingGT calledGT operationName dialogue invocation parameter |
+	| imsi gt callingGT calledGT operationName dialogue invocation parameter |
 
-	callingGT := self localSCCPAddress.
-	calledGT := self remoteSCCPAddressForIMSI: aRequest mobileIdentity fromTBCD.
+	imsi := 	aRequest mobileIdentity fromTBCD.
+	gt := self gtForIMSI: imsi.
+
+	callingGT := self callingSCCPAddress.
+	calledGT := self calledSCCPAddress: (gt prepare: imsi).
 
 	operationName := 'updateGprsLocation'.
 	parameter :=  ASN1Dictionary new

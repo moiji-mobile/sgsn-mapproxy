@@ -1,9 +1,9 @@
 as yet unclassified
-returnSendAuthenticationResultFor: aRequest with: aMapResult on: aDelegate
+returnSendAuthenticationResultFor: aRequest with: aList on: aDelegate
 	| result |
 	result := MAPProxySendAuthenticationInfoResult new.
 	result mobileIdentity: aRequest mobileIdentity.
-	aMapResult resultObject elements do: [:each |
+	aList do: [:each |
 		result addAuthTuple: (MAPProxyAuthTuple new
 								rand: each rand; sres: each sres; kc: each kc;
 								yourself)].
