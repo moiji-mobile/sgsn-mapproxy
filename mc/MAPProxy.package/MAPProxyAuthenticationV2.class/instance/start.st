@@ -12,7 +12,7 @@ start
 		onError: [self failure];
 		onReject: [self failure];
 		onLCancel: [[self failure] ensure: [ dialogue terminate]];
-		onReturnLast: [:result | self success: result resultObject elements].
+		onReturnLast: [:result | self successWith: [result resultObject elements]].
 	dialogue
 		requestTcBeginDestinationAddress: calledSCCPAddress
 		originatingAddress: callingSCCPAddress

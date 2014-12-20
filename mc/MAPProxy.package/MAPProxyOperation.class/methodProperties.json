@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"calledSCCPAddress:" : "HolgerHansPeterFreyther 12/20/2014 01:00",
+		"callingSCCPAddress:" : "HolgerHansPeterFreyther 12/20/2014 01:00",
+		"dialogue:" : "HolgerHansPeterFreyther 12/20/2014 01:00",
+		"failure" : "HolgerHansPeterFreyther 12/20/2014 01:01",
+		"imsi:" : "HolgerHansPeterFreyther 12/20/2014 01:00",
+		"localSCCPAddress:" : "HolgerHansPeterFreyther 12/20/2014 01:00",
+		"onFailure:" : "HolgerHansPeterFreyther 12/20/2014 01:00",
+		"onSuccess:" : "HolgerHansPeterFreyther 12/20/2014 01:00",
+		"successWith:" : "HolgerHansPeterFreyther 12/20/2014 01:01" } }

@@ -2,13 +2,4 @@
 	"class" : {
 		 },
 	"instance" : {
-		"calledSCCPAddress:" : "HolgerHansPeterFreyther 12/19/2014 18:49",
-		"callingSCCPAddress:" : "HolgerHansPeterFreyther 12/19/2014 18:48",
-		"dialogue:" : "HolgerHansPeterFreyther 12/19/2014 18:42",
-		"failure" : "HolgerHansPeterFreyther 12/19/2014 18:55",
-		"imsi:" : "HolgerHansPeterFreyther 12/19/2014 18:49",
-		"localSCCPAddress:" : "HolgerHansPeterFreyther 12/19/2014 18:42",
-		"onFailure:" : "HolgerHansPeterFreyther 12/19/2014 18:49",
-		"onSuccess:" : "HolgerHansPeterFreyther 12/19/2014 18:49",
-		"start" : "HolgerHansPeterFreyther 12/19/2014 18:54",
-		"success:" : "HolgerHansPeterFreyther 12/19/2014 18:55" } }
+		"start" : "HolgerHansPeterFreyther 12/20/2014 01:02" } }

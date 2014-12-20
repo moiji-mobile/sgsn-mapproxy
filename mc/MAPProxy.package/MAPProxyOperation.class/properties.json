@@ -6,9 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MAPProxyAuthenticationV2",
+		"dialogue",
+		"callingSCCPAddress",
+		"calledSCCPAddress",
+		"imsi",
+		"onFailure",
+		"onSuccess" ],
+	"name" : "MAPProxyOperation",
 	"pools" : [
 		 ],
-	"super" : "MAPProxyOperation",
+	"super" : "Object",
 	"type" : "normal" }
