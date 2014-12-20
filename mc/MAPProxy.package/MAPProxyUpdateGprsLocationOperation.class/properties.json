@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MAPProxyAuthenticationV3",
+		"vlrNumber" ],
+	"name" : "MAPProxyUpdateGprsLocationOperation",
 	"pools" : [
 		 ],
-	"super" : "MAPProxyAuthenticationV2",
+	"super" : "MAPProxyOperation",
 	"type" : "normal" }

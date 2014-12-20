@@ -16,7 +16,7 @@ setUp
 	mapProxy addGT: (MAPProxyGT new
 						imsiRange: '.*' asRegex;
 						replaceStart: '123';
-						operationForAuthentication: MAPProxyAuthenticationV2;
+						operationForAuthentication: MAPProxyAuthenticationV2Operation;
 						yourself).
 
 	testEndPoint connectTo: vlrEndPoint.

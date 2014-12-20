@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MAPProxyAuthenticationV2",
+	"name" : "MAPProxyAuthenticationV3Operation",
 	"pools" : [
 		 ],
-	"super" : "MAPProxyOperation",
+	"super" : "MAPProxyAuthenticationV2Operation",
 	"type" : "normal" }

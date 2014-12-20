@@ -3,7 +3,7 @@ testSendAuthenticationInfoV3
 	| invoked resp respMsg |
 
 	(mapProxy gtForIMSI: '123')
-		operationForAuthentication: MAPProxyAuthenticationV3.
+		operationForAuthentication: MAPProxyAuthenticationV3Operation.
 
 	testEndPoint
 		onDialogue: [:diag |
