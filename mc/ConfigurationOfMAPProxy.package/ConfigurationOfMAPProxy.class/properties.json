@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfMAPProxy",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfMAPProxy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
