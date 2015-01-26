@@ -1,0 +1,14 @@
+{
+	"category" : "MAPProxy-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MAPProxyCancellationResultTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
