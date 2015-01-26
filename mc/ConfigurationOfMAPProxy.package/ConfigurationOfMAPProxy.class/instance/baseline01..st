@@ -30,7 +30,12 @@ baseline01: spec
 				spec
 					className: #ConfigurationOfRFB;
 					versionString: '0.63';
-					repository: 'http://smalltalkhub.com/mc/PharoExtras/RFB/main/' ].
+					repository: 'http://smalltalkhub.com/mc/PharoExtras/RFB/main/' ];
+			project: 'HLR' with: [
+				spec
+					className: #ConfigurationOfHLR;
+					versionString: #'stable';
+					repository: 'http://smalltalkhub.com/mc/osmocom/Osmocom/main/' ].
 		spec 
 			package: 'OsmoSocket';
 			package: 'MAPProxy' with: [
