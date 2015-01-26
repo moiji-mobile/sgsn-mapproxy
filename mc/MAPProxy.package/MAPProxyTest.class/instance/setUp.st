@@ -3,6 +3,11 @@ setUp
 	mapProxy := MAPProxy new.
 	readDelegate := MAPProxyReadDelegate new.
 	readDelegate onNewConnection: OsmoMessageSocket new.
+	readDelegate connection readDelegate: readDelegate.
+
+	socketServer := OsmoMessageServer new.
+	socketServer addClientConnection: readDelegate connection.
+	mapProxy gsupServer: socketServer.
 
 	testEndPoint := TCAPTestServiceEndPoint new
 		asn1Model: MAPProxy asn1Model.

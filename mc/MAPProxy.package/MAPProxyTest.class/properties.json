@@ -9,7 +9,8 @@
 		"readDelegate",
 		"mapProxy",
 		"testEndPoint",
-		"vlrEndPoint" ],
+		"vlrEndPoint",
+		"socketServer" ],
 	"name" : "MAPProxyTest",
 	"pools" : [
 		 ],

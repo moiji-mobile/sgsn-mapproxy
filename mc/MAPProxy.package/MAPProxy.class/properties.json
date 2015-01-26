@@ -8,7 +8,8 @@
 	"instvars" : [
 		"endPoint",
 		"vlrNumber",
-		"gts" ],
+		"gts",
+		"gsupServer" ],
 	"name" : "MAPProxy",
 	"pools" : [
 		 ],
