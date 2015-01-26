@@ -16,5 +16,10 @@ handleInvocation: invocationReceived
 		conns first readDelegate sendGSUP: cancel toMessage asByteArray
 	].
 	(invocationReceived operationName = 'cancelLocationV3') ifTrue: [
-		self halt.
+		| cancel type |
+		cancel := MAPProxyCancellationRequest new.
+		cancel mobileIdentity: invocationReceived  argument identity imsi.
+		type := {invocationReceived argument cancellationType ifNil: [0]}.
+		cancel cause: type.
+		conns first readDelegate sendGSUP: cancel toMessage asByteArray
 	].

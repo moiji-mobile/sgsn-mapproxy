@@ -5,6 +5,7 @@
 		"inject:" : "HolgerHansPeterFreyther 12/14/2014 20:46",
 		"setUp" : "HolgerHansPeterFreyther 1/26/2015 21:56",
 		"testCancelLocation" : "HolgerHansPeterFreyther 1/26/2015 21:58",
+		"testCancelLocationV3" : "HolgerHansPeterFreyther 1/26/2015 22:03",
 		"testSendAuthenticationInfo" : "HolgerHansPeterFreyther 12/19/2014 13:58",
 		"testSendAuthenticationInfoFailure" : "HolgerHansPeterFreyther 12/16/2014 22:49",
 		"testSendAuthenticationInfoV3" : "HolgerHansPeterFreyther 12/20/2014 01:06",
