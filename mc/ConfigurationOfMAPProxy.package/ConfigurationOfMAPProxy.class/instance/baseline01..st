@@ -9,22 +9,22 @@ baseline01: spec
 			project: 'Osmocom' with: [
 				spec
 					className: #ConfigurationOfOsmocom;
-					versionString: '3';
+					versionString: #'bleddingEdge';
 					repository: 'http://smalltalkhub.com/mc/osmocom/Osmocom/main/' ];
 			project: 'TCAP' with: [
 				spec
 					className: #ConfigurationOfTCAP;
-					versionString: '0.2.1';
+					versionString: #'bleedingEdge';
 					repository: 'http://smalltalkhub.com/mc/osmocom/Osmocom/main/' ];
 			project: 'CDR' with: [
 				spec
 					className: #ConfigurationOfCDR;
-					versionString: '0.22';
+					versionString: #'bleedingEdge';
 					repository: 'http://smalltalkhub.com/mc/osmocom/Osmocom/main/' ];
 			project: 'ASN1' with: [
 				spec
 					className: #ConfigurationOfASN1;
-					versionString: '0.8.26';
+					versionString: #'bleddingEdge';
 					repository: 'http://smalltalkhub.com/mc/NorbertHartl/ASN1/main/' ];
 			project: 'RFB' with: [
 				spec
@@ -34,7 +34,7 @@ baseline01: spec
 			project: 'HLR' with: [
 				spec
 					className: #ConfigurationOfHLR;
-					versionString: #'stable';
+					versionString: #'bleedingEdge';
 					repository: 'http://smalltalkhub.com/mc/osmocom/Osmocom/main/' ].
 		spec 
 			package: 'OsmoSocket';
