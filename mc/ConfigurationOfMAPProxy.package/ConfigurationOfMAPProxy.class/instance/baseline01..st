@@ -9,7 +9,7 @@ baseline01: spec
 			project: 'Osmocom' with: [
 				spec
 					className: #ConfigurationOfOsmocom;
-					versionString: #'bleddingEdge';
+					versionString: #'bleedingEdge';
 					repository: 'http://smalltalkhub.com/mc/osmocom/Osmocom/main/' ];
 			project: 'TCAP' with: [
 				spec
