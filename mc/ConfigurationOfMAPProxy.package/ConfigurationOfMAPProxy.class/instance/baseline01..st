@@ -24,7 +24,7 @@ baseline01: spec
 			project: 'ASN1' with: [
 				spec
 					className: #ConfigurationOfASN1;
-					versionString: #'bleddingEdge';
+					versionString: #'bleedingEdge';
 					repository: 'http://smalltalkhub.com/mc/NorbertHartl/ASN1/main/' ];
 			project: 'RFB' with: [
 				spec
