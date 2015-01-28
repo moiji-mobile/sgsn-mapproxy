@@ -1,6 +1,8 @@
 as yet unclassified
 readFrom: aStream with: aTLVDescription 
 	| len data rand sres kc |
+	
+	self flag: #todo. "Use the TLV infrastructure here..."
 
 	len := aStream next.
 	data := (aStream next: len) readStream.

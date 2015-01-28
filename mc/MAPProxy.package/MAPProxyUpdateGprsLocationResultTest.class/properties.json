@@ -1,16 +1,14 @@
 {
-	"category" : "MAPProxy-Messages",
+	"category" : "MAPProxy-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"contextId",
-		"type",
-		"apn" ],
-	"name" : "MAPProxyPDPInfo",
+		 ],
+	"name" : "MAPProxyUpdateGprsLocationResultTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

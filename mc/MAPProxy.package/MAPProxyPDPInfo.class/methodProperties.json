@@ -1,5 +1,12 @@
 {
 	"class" : {
-		"attributeTlvDescription" : "HolgerHansPeterFreyther 12/16/2014 23:13" },
+		"attributeTlvDescription" : "HolgerHansPeterFreyther 1/26/2015 22:54",
+		"readFrom:with:" : "HolgerHansPeterFreyther 1/28/2015 14:41",
+		"write:on:with:" : "HolgerHansPeterFreyther 1/28/2015 14:16" },
 	"instance" : {
-		 } }
+		"apn" : "HolgerHansPeterFreyther 1/28/2015 14:17",
+		"apn:" : "HolgerHansPeterFreyther 1/26/2015 22:57",
+		"contextId" : "HolgerHansPeterFreyther 1/28/2015 14:17",
+		"contextId:" : "HolgerHansPeterFreyther 1/26/2015 22:56",
+		"type" : "HolgerHansPeterFreyther 1/28/2015 14:17",
+		"type:" : "HolgerHansPeterFreyther 1/26/2015 22:57" } }

@@ -5,10 +5,18 @@ testUpdateGprsLocation
 	testEndPoint
 		onDialogue: [:diag |
 			diag onInvoke: [:invocation |
-				| newInvocation |
+				| newInvocation data pdp |
 				invoked := true.
-				"TODO... send PDP context.."
-				newInvocation := diag requestTcInvokeNamed: 'insertSubscriberDataV2' parameters:  ASN1Dictionary new class: 1 timeout: 500.
+				data := 'InsertSubscriberDataArgV3' asAsn1ValueTypedIn: testEndPoint asn1Model.
+				data beSelfExpanding.
+				data gprsSubscriptionData completeDataListIncluded: true.
+				pdp := 'PDP-Context' asAsn1ValueTypedIn: testEndPoint asn1Model.
+				pdp pdp_ContextId: 1.
+				pdp pdp_Type: #[16r01 16r21].
+				pdp qos_Subscribed: #[16r23 16r71 16r1F].
+				pdp apn: #[16r02 16r6F 16r77].
+				data gprsSubscriptionData gprsDataList add: pdp.
+				newInvocation := diag requestTcInvokeNamed: 'insertSubscriberDataV3' parameters:  data class: 1 timeout: 500.
 				newInvocation onReturnLast: [:ret | 
 					invocation invocation returnResultLast: nil.
 					diag requestTcEnd: false].
@@ -25,4 +33,4 @@ testUpdateGprsLocation
 
 	"TODO: Verify the MAP part matching the result. Current version does not do MAP yet"
 	self assert: invoked.
-	self assert: respMsg pdpInfos size equals: 2.
+	self assert: respMsg pdpInfos size equals: 1.

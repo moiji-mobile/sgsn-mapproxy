@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"vlrNumber" ],
+		"vlrNumber",
+		"pdpInfos",
+		"pdpInfoComplete" ],
 	"name" : "MAPProxyUpdateGprsLocationOperation",
 	"pools" : [
 		 ],

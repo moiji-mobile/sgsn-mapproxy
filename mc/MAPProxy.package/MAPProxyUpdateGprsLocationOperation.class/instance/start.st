@@ -11,7 +11,7 @@ start
 		onPAbort: [self failure];
 		onUAbort: [self failure];
 		onInvoke: [:isd |
-			"TODO extract parameters for success handling"
+			self extractPDPInfo: isd argument.
 			isd invocation returnResultLast: nil.
 			dialogue requestTcContinue].
 	invocation := dialogue requestTcInvokeNamed: operationName parameters:  parameter class: 1 timeout: 60.

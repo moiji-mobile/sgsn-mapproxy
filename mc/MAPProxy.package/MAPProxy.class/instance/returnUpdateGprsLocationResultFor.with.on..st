@@ -1,7 +1,10 @@
 as yet unclassified
-returnUpdateGprsLocationResultFor: aRequest with: aResult on: aDelegate
+returnUpdateGprsLocationResultFor: aRequest with: anOperation on: aDelegate
 	| result |
 	"TODO.. aResult should collect all ISD invocations..."
 	result := MAPProxyUpdateGprsLocationResult new.
 	result mobileIdentity: aRequest mobileIdentity.
+	anOperation pdpInfoComplete ifTrue: [
+		result pdpInfoComplete: true].
+	result pdpInfos: anOperation pdpInfos.
 	aDelegate sendGSUP: result toMessage asByteArray.
