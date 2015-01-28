@@ -1,8 +1,7 @@
 as yet unclassified
 readFrom: aStream
-	| description tag  |
+	| description  |
 	description := self class tlvDescription.
-	tag := nil.
 
 	description do: [:attribute |
 		attribute isList
