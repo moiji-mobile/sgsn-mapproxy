@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mobileIdentity",
 		"cause" ],
 	"name" : "MAPProxySendAuthenticationInfoError",
 	"pools" : [

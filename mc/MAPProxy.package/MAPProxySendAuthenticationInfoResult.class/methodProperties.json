@@ -1,10 +1,8 @@
 {
 	"class" : {
 		"messageType" : "HolgerHansPeterFreyther 12/14/2014 15:36",
-		"tlvDescription" : "HolgerHansPeterFreyther 12/14/2014 15:38" },
+		"tlvDescription" : "HolgerHansPeterFreyther 1/28/2015 18:51" },
 	"instance" : {
 		"addAuthTuple:" : "HolgerHansPeterFreyther 12/14/2014 20:18",
 		"authTuples" : "HolgerHansPeterFreyther 12/14/2014 15:55",
-		"initialize" : "HolgerHansPeterFreyther 12/14/2014 20:18",
-		"mobileIdentity" : "HolgerHansPeterFreyther 12/14/2014 15:54",
-		"mobileIdentity:" : "HolgerHansPeterFreyther 12/14/2014 20:15" } }
+		"initialize" : "HolgerHansPeterFreyther 12/14/2014 20:18" } }

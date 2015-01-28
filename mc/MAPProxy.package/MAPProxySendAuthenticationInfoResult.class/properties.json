@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mobileIdentity",
 		"authTuples" ],
 	"name" : "MAPProxySendAuthenticationInfoResult",
 	"pools" : [

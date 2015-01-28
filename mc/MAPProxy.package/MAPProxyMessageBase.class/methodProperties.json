@@ -1,8 +1,11 @@
 {
 	"class" : {
-		"readFrom:" : "HolgerHansPeterFreyther 12/14/2014 13:35" },
+		"readFrom:" : "HolgerHansPeterFreyther 12/14/2014 13:35",
+		"tlvDescription" : "HolgerHansPeterFreyther 1/28/2015 18:50" },
 	"instance" : {
 		"dispatchMAPProxyOn:" : "HolgerHansPeterFreyther 12/14/2014 19:23",
+		"mobileIdentity" : "HolgerHansPeterFreyther 1/28/2015 18:50",
+		"mobileIdentity:" : "HolgerHansPeterFreyther 1/28/2015 18:50",
 		"parseOne:attribute:" : "HolgerHansPeterFreyther 12/14/2014 15:50",
 		"readFrom:" : "HolgerHansPeterFreyther 12/14/2014 15:52",
 		"writeHeaderOn:" : "HolgerHansPeterFreyther 12/14/2014 13:50" } }

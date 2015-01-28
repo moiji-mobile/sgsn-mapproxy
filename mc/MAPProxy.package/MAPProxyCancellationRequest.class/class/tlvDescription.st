@@ -1,6 +1,5 @@
 as yet unclassified
 tlvDescription
-	^OrderedCollection new
-		add: MAPProxyMobileIdentity tlvDescription;
+	^super tlvDescription
 		add: MAPProxyCancellationType tlvDescription;
 		yourself.
