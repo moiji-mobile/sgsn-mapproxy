@@ -1,0 +1,14 @@
+{
+	"category" : "MAPProxy-Operations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MAPProxyPurgeMSV2Operation",
+	"pools" : [
+		 ],
+	"super" : "MAPProxyOperation",
+	"type" : "normal" }
