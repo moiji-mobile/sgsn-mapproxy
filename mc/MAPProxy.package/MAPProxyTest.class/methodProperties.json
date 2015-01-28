@@ -12,4 +12,5 @@
 		"testSendAuthenticationInfoFailure" : "HolgerHansPeterFreyther 12/16/2014 22:49",
 		"testSendAuthenticationInfoV3" : "HolgerHansPeterFreyther 12/20/2014 01:06",
 		"testUpdateGprsLocation" : "HolgerHansPeterFreyther 1/26/2015 22:48",
+		"testUpdateGprsLocationError" : "HolgerHansPeterFreyther 1/28/2015 19:44",
 		"testWrongMessage" : "HolgerHansPeterFreyther 12/14/2014 19:26" } }
