@@ -1,5 +1,7 @@
 as yet unclassified
 newDialogue
-	^endPoint newDialogue
-		removeDefaultSubscription;
-		yourself
+	| diag |
+	diag := endPoint newDialogue.
+	(diag respondsTo: #removeDefaultSubscription) ifTrue: [
+		diag removeDefaultSubscription].
+	^diag
