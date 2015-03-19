@@ -9,7 +9,8 @@
 		"imsiRangeMatch",
 		"prefix",
 		"operationForAuthentication",
-		"operationForPurgeMS" ],
+		"operationForPurgeMS",
+		"callingSSN" ],
 	"name" : "MAPProxyGT",
 	"pools" : [
 		 ],

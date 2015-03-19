@@ -6,7 +6,7 @@ purgeMS: aRequest for: aDelegate
 	gt := self gtForIMSI: imsi.
 	gt operationForPurgeMS new
 		dialogue: self newDialogue;
-		callingSCCPAddress: self callingSCCPAddress;
+		callingSCCPAddress: (self callingSCCPAddress: gt callingSSN);
 		calledSCCPAddress: (self calledSCCPAddress: (gt prepare: imsi));
 		imsi: imsi;
 		onFailure: [self returnPurgeMSFailureFor: aRequest on: aDelegate];

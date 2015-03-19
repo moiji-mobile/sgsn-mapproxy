@@ -7,7 +7,7 @@ updateGprsLocation: aRequest for: aDelegate
 	op := MAPProxyUpdateGprsLocationOperation  new.
 	op
 		dialogue: self newDialogue;
-		callingSCCPAddress: self callingSCCPAddress;
+		callingSCCPAddress: (self callingSCCPAddress: gt callingSSN);
 		calledSCCPAddress: (self calledSCCPAddress: (gt prepare: imsi));
 		imsi: imsi;
 		vlrNumber: vlrNumber;

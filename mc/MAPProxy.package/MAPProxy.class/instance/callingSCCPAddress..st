@@ -1,6 +1,6 @@
 as yet unclassified
-callingSCCPAddress
-	^ (SCCPAddress createForSSN: #vlr)
+callingSCCPAddress: aSSN
+	^ (SCCPAddress createWith: aSSN)
 		routedOnSSN: false;
 		gtiFromAddr:  (SCCPGlobalTitleTranslation new
 							nature: SCCPGlobalTitle naiInternationalNumber;

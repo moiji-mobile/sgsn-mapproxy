@@ -12,7 +12,7 @@ testCancelLocationV3
 		onError: [self assert: false];
 		onReturnLast: [:res | invokeResult := res].
 	diag
-		requestTcBeginDestinationAddress: (mapProxy callingSCCPAddress)
+		requestTcBeginDestinationAddress: (mapProxy callingSCCPAddress: SCCPAddress ssnHLR)
 		originatingAddress: (mapProxy calledSCCPAddress: '456')
 		applicationContextName: (diag applicationContextNamed: 'cancelLocationV3').
 

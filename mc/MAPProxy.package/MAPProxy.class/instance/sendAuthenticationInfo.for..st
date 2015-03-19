@@ -6,7 +6,7 @@ sendAuthenticationInfo: aRequest for: aDelegate
 	gt := self gtForIMSI: imsi.
 	gt operationForAuthentication new
 		dialogue: self newDialogue;
-		callingSCCPAddress: self callingSCCPAddress;
+		callingSCCPAddress: (self callingSCCPAddress: gt callingSSN);
 		calledSCCPAddress: (self calledSCCPAddress: (gt prepare: imsi));
 		imsi: imsi;
 		onFailure: [self returnSendAuthenticationFailureFor: aRequest on: aDelegate];
