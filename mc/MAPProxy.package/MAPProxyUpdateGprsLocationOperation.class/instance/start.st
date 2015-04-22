@@ -11,6 +11,7 @@ start
 		onPAbort: [self failure];
 		onUAbort: [self failure];
 		onInvoke: [:isd |
+			self extractMSISDN: isd argument.
 			self extractPDPInfo: isd argument.
 			isd invocation returnResultLast: nil.
 			dialogue requestTcContinue].

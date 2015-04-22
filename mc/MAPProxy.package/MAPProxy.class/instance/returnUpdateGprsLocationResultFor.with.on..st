@@ -7,4 +7,5 @@ returnUpdateGprsLocationResultFor: aRequest with: anOperation on: aDelegate
 	anOperation pdpInfoComplete ifTrue: [
 		result pdpInfoComplete: true].
 	result pdpInfos: anOperation pdpInfos.
+	result msisdn: anOperation msisdn.
 	aDelegate sendGSUP: result toMessage asByteArray.

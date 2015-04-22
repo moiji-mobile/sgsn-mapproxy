@@ -9,7 +9,8 @@
 		"vlrNumber",
 		"pdpInfos",
 		"pdpInfoComplete",
-		"sgsnAddress" ],
+		"sgsnAddress",
+		"msisdn" ],
 	"name" : "MAPProxyUpdateGprsLocationOperation",
 	"pools" : [
 		 ],

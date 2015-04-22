@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"pdpInfoComplete",
-		"pdpInfos",
-		"msisdn" ],
-	"name" : "MAPProxyUpdateGprsLocationResult",
+		 ],
+	"name" : "MAPProxyISDNAddressString",
 	"pools" : [
 		 ],
-	"super" : "MAPProxyMessageBase",
+	"super" : "TLVOctetValue",
 	"type" : "normal" }
