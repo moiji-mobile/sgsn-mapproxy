@@ -1,11 +1,12 @@
 as yet unclassified
 testUpdateGprsLocation
-	| invoked resp respMsg |
+	| invoked resp respMsg argument |
 
 	testEndPoint
 		onDialogue: [:diag |
 			diag onInvoke: [:invocation |
 				| newInvocation data pdp |
+				argument := invocation argument.
 				invoked := true.
 				data := 'InsertSubscriberDataArgV3' asAsn1ValueTypedIn: testEndPoint asn1Model.
 				data beSelfExpanding.
@@ -33,4 +34,5 @@ testUpdateGprsLocation
 
 	"TODO: Verify the MAP part matching the result. Current version does not do MAP yet"
 	self assert: invoked.
+	self assert: argument sgsn_Address equals: #[4 127 0 0 1].
 	self assert: respMsg pdpInfos size equals: 1.

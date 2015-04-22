@@ -16,6 +16,7 @@ setUp
 
 	mapProxy endPoint: vlrEndPoint.
 	mapProxy vlrNumber: '123'.
+	mapProxy sgsnAddress: #[4 127 0 0 1].
 	readDelegate mapProxy: mapProxy.
 
 	mapProxy addGT: (MAPProxyGT new

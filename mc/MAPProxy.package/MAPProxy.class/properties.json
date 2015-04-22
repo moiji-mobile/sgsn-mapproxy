@@ -9,7 +9,8 @@
 		"endPoint",
 		"vlrNumber",
 		"gts",
-		"gsupServer" ],
+		"gsupServer",
+		"sgsnAddress" ],
 	"name" : "MAPProxy",
 	"pools" : [
 		 ],

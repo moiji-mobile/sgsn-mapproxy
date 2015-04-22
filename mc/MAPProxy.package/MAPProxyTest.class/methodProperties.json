@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"inject:" : "HolgerHansPeterFreyther 12/14/2014 20:46",
-		"setUp" : "HolgerHansPeterFreyther 1/28/2015 19:18",
+		"setUp" : "HolgerHansPeterFreyther 4/22/2015 11:45",
 		"testCancelLocation" : "HolgerHansPeterFreyther 3/19/2015 16:23",
 		"testCancelLocationV3" : "HolgerHansPeterFreyther 3/19/2015 16:23",
 		"testPurgeMS" : "HolgerHansPeterFreyther 1/28/2015 19:26",
@@ -11,6 +11,6 @@
 		"testSendAuthenticationInfo" : "HolgerHansPeterFreyther 12/19/2014 13:58",
 		"testSendAuthenticationInfoFailure" : "HolgerHansPeterFreyther 12/16/2014 22:49",
 		"testSendAuthenticationInfoV3" : "HolgerHansPeterFreyther 12/20/2014 01:06",
-		"testUpdateGprsLocation" : "HolgerHansPeterFreyther 1/26/2015 22:48",
+		"testUpdateGprsLocation" : "HolgerHansPeterFreyther 4/22/2015 11:49",
 		"testUpdateGprsLocationError" : "HolgerHansPeterFreyther 1/28/2015 19:44",
 		"testWrongMessage" : "HolgerHansPeterFreyther 12/14/2014 19:26" } }

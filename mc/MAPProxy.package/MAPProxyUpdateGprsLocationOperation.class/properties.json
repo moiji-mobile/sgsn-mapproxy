@@ -8,7 +8,8 @@
 	"instvars" : [
 		"vlrNumber",
 		"pdpInfos",
-		"pdpInfoComplete" ],
+		"pdpInfoComplete",
+		"sgsnAddress" ],
 	"name" : "MAPProxyUpdateGprsLocationOperation",
 	"pools" : [
 		 ],
