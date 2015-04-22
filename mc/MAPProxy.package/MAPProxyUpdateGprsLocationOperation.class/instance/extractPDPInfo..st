@@ -11,5 +11,6 @@ extractPDPInfo: anArgument
 		pdp
 			contextId: each pdp_ContextId;
 			type: each pdp_Type;
-			apn: each apn.
+			apn: each apn;
+			qualityOfService: each qos_Subscribed.
 		pdpInfos add: pdp].

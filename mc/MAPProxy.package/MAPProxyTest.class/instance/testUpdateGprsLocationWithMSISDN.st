@@ -38,3 +38,4 @@ testUpdateGprsLocationWithMSISDN
 	self assert: argument sgsn_Address equals: #[4 127 0 0 1].
 	self assert: respMsg pdpInfos size equals: 1.
 	self assert: respMsg msisdn fromE164 equals: '491662345632'.
+	self assert: respMsg pdpInfos first qualityOfService equals: #[16r23 16r71 16r1F]. 
