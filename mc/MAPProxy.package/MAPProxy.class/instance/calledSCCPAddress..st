@@ -1,5 +1,6 @@
 as yet unclassified
 calledSCCPAddress: aGT
+	logger logDebug: 'Creating called SCCPAddress' with: { 'gt' -> aGT }.
 	^ (SCCPAddress createForSSN: #hlr)
 		routedOnSSN: false;
 		gtiFromAddr:  (SCCPGlobalTitleTranslation new

@@ -3,6 +3,8 @@ updateGprsLocation: aRequest for: aDelegate
 	| imsi gt op |
 
 	imsi := 	aRequest mobileIdentity fromTBCD.
+	logger logDebug: 'sendAuthentication failed' with: { 'imsi' ->  imsi}.
+
 	gt := self gtForIMSI: imsi.
 	op := MAPProxyUpdateGprsLocationOperation  new.
 	op

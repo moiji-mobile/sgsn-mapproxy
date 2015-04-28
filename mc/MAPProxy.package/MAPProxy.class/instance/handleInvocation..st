@@ -1,6 +1,7 @@
 as yet unclassified
 handleInvocation: invocationReceived
 	| conns |
+	logger logDebug: 'Received invocation' with: { 'operationName' -> invocationReceived operationName }.
 	invocationReceived invocation returnResultLast: nil.
 	invocationReceived dialogue requestTcEnd: false.
 

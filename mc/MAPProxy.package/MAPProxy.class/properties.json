@@ -10,7 +10,8 @@
 		"vlrNumber",
 		"gts",
 		"gsupServer",
-		"sgsnAddress" ],
+		"sgsnAddress",
+		"logger" ],
 	"name" : "MAPProxy",
 	"pools" : [
 		 ],

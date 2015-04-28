@@ -3,6 +3,8 @@ purgeMS: aRequest for: aDelegate
 	| imsi gt |
 
 	imsi := 	aRequest mobileIdentity fromTBCD.
+	logger logDebug: 'GSUP purgeMS request' with: { 'imsi' -> imsi }.
+
 	gt := self gtForIMSI: imsi.
 	gt operationForPurgeMS new
 		dialogue: self newDialogue;

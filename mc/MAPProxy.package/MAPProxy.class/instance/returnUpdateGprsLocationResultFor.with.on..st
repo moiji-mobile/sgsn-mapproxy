@@ -1,6 +1,9 @@
 as yet unclassified
 returnUpdateGprsLocationResultFor: aRequest with: anOperation on: aDelegate
 	| result |
+
+	logger logNotice: 'updateGprs result' with: { 'imsi' ->  aRequest mobileIdentity fromTBCD}.
+
 	"TODO.. aResult should collect all ISD invocations..."
 	result := MAPProxyUpdateGprsLocationResult new.
 	result mobileIdentity: aRequest mobileIdentity.
