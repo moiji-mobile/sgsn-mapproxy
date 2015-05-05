@@ -19,7 +19,7 @@ readFrom: aStream with: aTLVListDescription
 	apn := data next: len.
 
 	qos := #[].
-	data peek = 16r14 ifTrue: [
+	data peek = 16r13 ifTrue: [
 		data skip: 1.
 		len := data next.
 		qos := data next: len
