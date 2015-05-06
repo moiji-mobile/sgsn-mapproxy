@@ -11,7 +11,8 @@
 		"calledSCCPAddress",
 		"imsi",
 		"onFailure",
-		"onSuccess" ],
+		"onSuccess",
+		"logger" ],
 	"name" : "MAPProxyOperation",
 	"pools" : [
 		 ],
