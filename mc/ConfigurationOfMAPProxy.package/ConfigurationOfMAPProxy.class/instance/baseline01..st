@@ -40,7 +40,12 @@ baseline01: spec
 				spec
 					className: #ConfigurationOfOsmoCrashReportClient;
 					versionString: #'bleedingEdge';
-					repository: 'http://smalltalkhub.com/mc/osmocom/OsmoCrashReport/main/' ].
+					repository: 'http://smalltalkhub.com/mc/osmocom/OsmoCrashReport/main/' ];
+			project: 'OsmoSyslog' with: [
+				spec
+					className: #ConfigurationOfOsmoSyslog;
+					versionString: #'stable';
+					repository: 'http://smalltalkhub.com/mc/osmocom/OsmoSyslog/main/' ].
 		spec 
 			package: 'OsmoSocket';
 			package: #'SS7-Helper';
