@@ -45,6 +45,4 @@ baseline01: spec
 			package: 'OsmoSocket';
 			package: #'SS7-Helper';
 			package: 'MAPProxy' with: [
-				spec requires: #('OsmoSocket' 'Osmocom' 'TCAP' 'ASN1' #'SS7-Helper' ). ];
-			package: #OsmoSyslog with: [
-				spec requires: #('Osmocom' ). ]. ].
+				spec requires: #('OsmoSocket' 'Osmocom' 'TCAP' 'ASN1' #'SS7-Helper' ). ]. ].
