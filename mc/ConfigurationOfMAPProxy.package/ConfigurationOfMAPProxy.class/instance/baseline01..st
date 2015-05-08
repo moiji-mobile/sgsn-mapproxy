@@ -35,13 +35,16 @@ baseline01: spec
 				spec
 					className: #ConfigurationOfHLR;
 					versionString: #'bleedingEdge';
-					repository: 'http://smalltalkhub.com/mc/osmocom/Osmocom/main/' ].
+					repository: 'http://smalltalkhub.com/mc/osmocom/Osmocom/main/' ];
+			project: 'OsmoCrashReportClient' with: [
+				spec
+					className: #ConfigurationOfOsmoCrashReportClient;
+					versionString: '1';
+					repository: 'http://smalltalkhub.com/mc/osmocom/OsmoCrashReport/main/' ].
 		spec 
 			package: 'OsmoSocket';
 			package: #'SS7-Helper';
 			package: 'MAPProxy' with: [
 				spec requires: #('OsmoSocket' 'Osmocom' 'TCAP' 'ASN1' #'SS7-Helper' ). ];
-			package: #OsmoCrashReportClient with: [
-				spec requires: #('Osmocom' ). ];
 			package: #OsmoSyslog with: [
 				spec requires: #('Osmocom' ). ]. ].
