@@ -38,6 +38,10 @@ baseline01: spec
 					repository: 'http://smalltalkhub.com/mc/osmocom/Osmocom/main/' ].
 		spec 
 			package: 'OsmoSocket';
+			package: #'SS7-Helper';
 			package: 'MAPProxy' with: [
 				spec requires: #('OsmoSocket' 'Osmocom' 'TCAP' 'ASN1' #'SS7-Helper' ). ];
-			package: #'SS7-Helper'. ].
+			package: #OsmoCrashReportClient with: [
+				spec requires: #('Osmocom' ). ];
+			package: #OsmoSyslog with: [
+				spec requires: #('Osmocom' ). ]. ].
