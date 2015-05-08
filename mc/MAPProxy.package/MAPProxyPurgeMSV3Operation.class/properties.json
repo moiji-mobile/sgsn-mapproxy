@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"sgsnNumber" ],
-	"name" : "MAPProxyPurgeMSV2Operation",
+		 ],
+	"name" : "MAPProxyPurgeMSV3Operation",
 	"pools" : [
 		 ],
-	"super" : "MAPProxyOperation",
+	"super" : "MAPProxyPurgeMSV2Operation",
 	"type" : "normal" }

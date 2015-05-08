@@ -1,22 +1,22 @@
 as yet unclassified
-testPurgeMS
-	| invoked resp respMsg sgsnNumber operationName |
+testPurgeMSV2
+	| invoked resp respMsg operationName |
+	
+	(mapProxy gtForIMSI: '123')
+		operationForPurgeMS: MAPProxyPurgeMSV2Operation.
 
 	testEndPoint
 		onDialogue: [:diag |
 			diag onInvoke: [:invocation |
-				invoked := true.
 				operationName := invocation invocation operationName.
-				sgsnNumber := invocation argument sgsn_Number.
+				invoked := true.
 				invocation returnResultLast: nil.
 				diag requestTcEnd: false]].
 
 	self inject: MAPProxyPurgeMSRequestTest new exampleData.
 	self deny: readDelegate connection isTerminated.
 	self assert: invoked.
-	self assert: sgsnNumber notNil.
-	self assert: sgsnNumber fromE164 equals: '123'.
-	self assert: operationName equals: 'purgeMSV3'.
+	self assert: operationName equals: 'purgeMSV2'.
 	self assert: readDelegate connection writeQueue size equals: 1.
 
 	"TODO: We should demux it here properly!"

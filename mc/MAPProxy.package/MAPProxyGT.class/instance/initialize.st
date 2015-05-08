@@ -1,5 +1,5 @@
 as yet unclassified
 initialize
 	super initialize.
-	operationForPurgeMS := MAPProxyPurgeMSV2Operation.
+	operationForPurgeMS := MAPProxyPurgeMSV3Operation.
 	callingSSN := SCCPAddress ssnHLR.

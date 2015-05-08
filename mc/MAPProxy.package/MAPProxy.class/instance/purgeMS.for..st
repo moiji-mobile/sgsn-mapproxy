@@ -11,6 +11,7 @@ purgeMS: aRequest for: aDelegate
 		callingSCCPAddress: (self callingSCCPAddress: gt callingSSN);
 		calledSCCPAddress: (self calledSCCPAddress: (gt prepare: imsi));
 		imsi: imsi;
+		sgsnNumber: vlrNumber;
 		onFailure: [self returnPurgeMSFailureFor: aRequest on: aDelegate];
 		onSuccess: [:result | self returnPurgeMSResultFor: aRequest with: result on: aDelegate];
 		start.
