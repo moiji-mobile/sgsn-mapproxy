@@ -39,7 +39,7 @@ baseline01: spec
 			project: 'OsmoCrashReportClient' with: [
 				spec
 					className: #ConfigurationOfOsmoCrashReportClient;
-					versionString: '1';
+					versionString: '2';
 					repository: 'http://smalltalkhub.com/mc/osmocom/OsmoCrashReport/main/' ].
 		spec 
 			package: 'OsmoSocket';
