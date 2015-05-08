@@ -12,7 +12,7 @@ updateGprsLocation: aRequest for: aDelegate
 		callingSCCPAddress: (self callingSCCPAddress: gt callingSSN);
 		calledSCCPAddress: (self calledSCCPAddress: (gt prepare: imsi));
 		imsi: imsi;
-		vlrNumber: vlrNumber;
+		sgsnNumber: vlrNumber;
 		sgsnAddress: sgsnAddress;
 		onFailure: [self returnUpdateGprsLocationFailureFor: aRequest on: aDelegate];
 		onSuccess: [:result | self returnUpdateGprsLocationResultFor: aRequest with: op on: aDelegate];

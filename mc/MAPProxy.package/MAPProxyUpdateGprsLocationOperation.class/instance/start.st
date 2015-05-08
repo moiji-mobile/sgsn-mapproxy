@@ -4,7 +4,7 @@ start
 	operationName := 'updateGprsLocation'.
 	parameter :=  ASN1Dictionary new
 				at: 'imsi' put: imsi toTBCD;
-				at: 'sgsn-Number' put: vlrNumber toE164;
+				at: 'sgsn-Number' put: sgsnNumber toE164;
 				at: 'sgsn-Address' put: sgsnAddress;
 				yourself.
 	dialogue

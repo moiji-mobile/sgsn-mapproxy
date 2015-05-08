@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"vlrNumber",
 		"pdpInfos",
 		"pdpInfoComplete",
+		"sgsnNumber",
 		"sgsnAddress",
 		"msisdn" ],
 	"name" : "MAPProxyUpdateGprsLocationOperation",
