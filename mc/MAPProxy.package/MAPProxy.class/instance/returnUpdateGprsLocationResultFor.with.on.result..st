@@ -1,8 +1,11 @@
 as yet unclassified
-returnUpdateGprsLocationResultFor: aRequest with: anOperation on: aDelegate
-	| result |
+returnUpdateGprsLocationResultFor: aRequest with: anOperation on: aDelegate result: aResult
+	| result hlrNumber |
 
-	logger logNotice: 'updateGprs result' with: { 'imsi' ->  aRequest mobileIdentity fromTBCD}.
+	(aResult find: 'hlr-Number') ifNotNil: [:number |
+		hlrNumber := number fromE164].
+
+	logger logNotice: 'updateGprs result' with: { 'imsi' ->  aRequest mobileIdentity fromTBCD. 'hlrNumber' -> hlrNumber}.
 
 	"TODO.. aResult should collect all ISD invocations..."
 	result := MAPProxyUpdateGprsLocationResult new.

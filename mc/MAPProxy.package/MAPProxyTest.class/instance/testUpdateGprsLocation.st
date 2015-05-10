@@ -19,7 +19,9 @@ testUpdateGprsLocation
 				data gprsSubscriptionData gprsDataList add: pdp.
 				newInvocation := diag requestTcInvokeNamed: 'insertSubscriberDataV3' parameters:  data class: 1 timeout: 500.
 				newInvocation onReturnLast: [:ret | 
-					invocation invocation returnResultLast: nil.
+					invocation invocation returnResultLast: (ASN1Dictionary new
+																at: 'hlr-Number' put: '4921313' toE164;
+																yourself).
 					diag requestTcEnd: false].
 				diag requestTcContinue]].
 

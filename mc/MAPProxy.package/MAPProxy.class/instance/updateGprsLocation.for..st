@@ -15,5 +15,5 @@ updateGprsLocation: aRequest for: aDelegate
 		sgsnNumber: vlrNumber;
 		sgsnAddress: sgsnAddress;
 		onFailure: [self returnUpdateGprsLocationFailureFor: aRequest on: aDelegate];
-		onSuccess: [:result | self returnUpdateGprsLocationResultFor: aRequest with: op on: aDelegate];
+		onSuccess: [:result | self returnUpdateGprsLocationResultFor: aRequest with: op on: aDelegate result: result];
 		start.
