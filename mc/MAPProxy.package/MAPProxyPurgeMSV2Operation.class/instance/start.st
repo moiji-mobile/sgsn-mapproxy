@@ -5,6 +5,7 @@ start
 	operationName := 'purgeMSV2'.
 	param := 'PurgeMS-ArgV2' asAsn1ValueTypedIn: dialogue asn1Model.
 	param imsi: imsi toTBCD.
+	param vlr_Number: sgsnNumber toE164.
 	
 	dialogue
 		onPAbort: [self failure];
