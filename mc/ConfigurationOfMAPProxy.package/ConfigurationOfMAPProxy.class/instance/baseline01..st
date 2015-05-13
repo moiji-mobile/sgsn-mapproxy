@@ -4,13 +4,8 @@ baseline01: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec repository: 'http://smalltalkhub.com/mc/osmocom/Osmocom/main/'.
+		spec repository: 'http://smalltalkhub.com/mc/osmocom/MAPProxy/main/'.
 		spec 
-			project: 'Osmocom' with: [
-				spec
-					className: #ConfigurationOfOsmocom;
-					versionString: #'bleedingEdge';
-					repository: 'http://smalltalkhub.com/mc/osmocom/Osmocom/main/' ];
 			project: 'TCAP' with: [
 				spec
 					className: #ConfigurationOfTCAP;
@@ -41,13 +36,20 @@ baseline01: spec
 					className: #ConfigurationOfOsmoCrashReportClient;
 					versionString: #'bleedingEdge';
 					repository: 'http://smalltalkhub.com/mc/osmocom/OsmoCrashReport/main/' ];
-			project: 'OsmoSyslog' with: [
+			project: 'OsmoNetwork' with: [
 				spec
-					className: #ConfigurationOfOsmoSyslog;
-					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/osmocom/OsmoSyslog/main/' ].
-		spec 
-			package: 'OsmoSocket';
-			package: #'SS7-Helper';
-			package: 'MAPProxy' with: [
-				spec requires: #('OsmoSocket' 'Osmocom' 'TCAP' 'ASN1' #'SS7-Helper' ). ]. ].
+					className: #ConfigurationOfOsmoNetwork;
+					versionString: #'bleedingEdge';
+					repository: 'http://smalltalkhub.com/mc/osmocom/Network/main/' ];
+			project: 'OsmoLogging' with: [
+				spec
+					className: #ConfigurationOfOsmoLogging;
+					versionString: #'bleedingEdge';
+					repository: 'http://smalltalkhub.com/mc/osmocom/Logging/main/' ];
+			project: 'OsmoGSM' with: [
+				spec
+					className: #ConfigurationOfOsmoGSM;
+					versionString: #'bleedingEdge';
+					repository: 'http://smalltalkhub.com/mc/osmocom/GSM/main/' ].
+		spec package: 'MAPProxy' with: [
+				spec requires: #('OsmoNetwork' 'OsmoLogging' 'TCAP' 'ASN1' 'OsmoGSM' ). ]. ].
