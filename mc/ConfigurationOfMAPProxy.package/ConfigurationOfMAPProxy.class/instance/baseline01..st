@@ -10,12 +10,12 @@ baseline01: spec
 				spec
 					className: #ConfigurationOfTCAP;
 					versionString: #'bleedingEdge';
-					repository: 'http://smalltalkhub.com/mc/osmocom/Osmocom/main/' ];
+					repository: 'http://smalltalkhub.com/mc/osmocom/TCAP/main/' ];
 			project: 'CDR' with: [
 				spec
 					className: #ConfigurationOfCDR;
 					versionString: #'bleedingEdge';
-					repository: 'http://smalltalkhub.com/mc/osmocom/Osmocom/main/' ];
+					repository: 'http://smalltalkhub.com/mc/osmocom/ChargingDataRecord/main/' ];
 			project: 'ASN1' with: [
 				spec
 					className: #ConfigurationOfASN1;
@@ -30,7 +30,7 @@ baseline01: spec
 				spec
 					className: #ConfigurationOfHLR;
 					versionString: #'bleedingEdge';
-					repository: 'http://smalltalkhub.com/mc/osmocom/Osmocom/main/' ];
+					repository: 'http://smalltalkhub.com/mc/osmocom/HomeLocationRegister/main/' ];
 			project: 'OsmoCrashReportClient' with: [
 				spec
 					className: #ConfigurationOfOsmoCrashReportClient;
