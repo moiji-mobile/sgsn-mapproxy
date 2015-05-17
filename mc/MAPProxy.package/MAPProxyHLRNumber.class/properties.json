@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"hlrNumber" ],
-	"name" : "MAPProxyPurgeMSRequest",
+		 ],
+	"name" : "MAPProxyHLRNumber",
 	"pools" : [
 		 ],
-	"super" : "MAPProxyMessageBase",
+	"super" : "TLVOctetValue",
 	"type" : "normal" }

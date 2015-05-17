@@ -10,6 +10,7 @@ returnUpdateGprsLocationResultFor: aRequest with: anOperation on: aDelegate resu
 	"TODO.. aResult should collect all ISD invocations..."
 	result := MAPProxyUpdateGprsLocationResult new.
 	result mobileIdentity: aRequest mobileIdentity.
+	result hlrNumber: (aResult find: 'hlr-Number').
 	anOperation pdpInfoComplete ifTrue: [
 		result pdpInfoComplete: true].
 	result pdpInfos: anOperation pdpInfos.

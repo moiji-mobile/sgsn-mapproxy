@@ -1,5 +1,7 @@
 {
 	"class" : {
-		"messageType" : "HolgerHansPeterFreyther 1/28/2015 18:24" },
+		"messageType" : "HolgerHansPeterFreyther 1/28/2015 18:24",
+		"tlvDescription" : "HolgerHansPeterFreyther 5/17/2015 21:20" },
 	"instance" : {
-		"dispatchMAPProxyOn:" : "HolgerHansPeterFreyther 1/28/2015 19:13" } }
+		"dispatchMAPProxyOn:" : "HolgerHansPeterFreyther 1/28/2015 19:13",
+		"hlrNumber" : "HolgerHansPeterFreyther 5/17/2015 22:11" } }

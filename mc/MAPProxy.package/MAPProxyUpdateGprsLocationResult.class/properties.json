@@ -8,7 +8,8 @@
 	"instvars" : [
 		"pdpInfoComplete",
 		"pdpInfos",
-		"msisdn" ],
+		"msisdn",
+		"hlrNumber" ],
 	"name" : "MAPProxyUpdateGprsLocationResult",
 	"pools" : [
 		 ],

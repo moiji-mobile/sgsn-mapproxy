@@ -38,3 +38,4 @@ testUpdateGprsLocation
 	self assert: invoked.
 	self assert: argument sgsn_Address equals: #[4 127 0 0 1].
 	self assert: respMsg pdpInfos size equals: 1.
+	self assert: respMsg hlrNumber fromE164 equals: '4921313'
