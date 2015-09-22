@@ -20,4 +20,4 @@ start
 	dialogue
 		requestTcBeginDestinationAddress: calledSCCPAddress
 		originatingAddress: callingSCCPAddress
-		applicationContextName: (dialogue applicationContextNamed: operationName).
+		applicationContextName: (dialogue applicationContextOidForOperationNamed: operationName).

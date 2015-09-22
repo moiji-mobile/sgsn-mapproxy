@@ -4,9 +4,9 @@
 	"instance" : {
 		"inject:" : "HolgerHansPeterFreyther 12/14/2014 20:46",
 		"setUp" : "HolgerHansPeterFreyther 4/22/2015 11:45",
-		"testCancelLocation" : "HolgerHansPeterFreyther 3/19/2015 16:23",
-		"testCancelLocationV3" : "HolgerHansPeterFreyther 3/19/2015 16:23",
-		"testCancelLocationV3WithCancellationType" : "HolgerHansPeterFreyther 4/22/2015 15:50",
+		"testCancelLocation" : "NorbertHartl 9/22/2015 14:51",
+		"testCancelLocationV3" : "NorbertHartl 9/22/2015 14:51",
+		"testCancelLocationV3WithCancellationType" : "NorbertHartl 9/22/2015 14:51",
 		"testPurgeMS" : "HolgerHansPeterFreyther 5/8/2015 09:56",
 		"testPurgeMSError" : "HolgerHansPeterFreyther 1/28/2015 19:32",
 		"testPurgeMSErrorV2" : "HolgerHansPeterFreyther 5/8/2015 09:58",

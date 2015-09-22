@@ -13,7 +13,7 @@ testCancelLocation
 	diag
 		requestTcBeginDestinationAddress: (mapProxy callingSCCPAddress: SCCPAddress ssnHLR)
 		originatingAddress: (mapProxy calledSCCPAddress: '456')
-		applicationContextName: (diag applicationContextNamed: 'cancelLocationV2').
+		applicationContextName: (diag applicationContextOidForOperationNamed: 'cancelLocationV2').
 
 	"TODO: We should demux it here properly!"
 	self deny: invokeResult isNil.
