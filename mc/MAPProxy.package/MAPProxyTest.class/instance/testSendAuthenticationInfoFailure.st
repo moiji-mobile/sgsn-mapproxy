@@ -6,7 +6,7 @@ testSendAuthenticationInfoFailure
 		onDialogue: [:diag |
 			diag onInvoke: [:invocation |
 				invoked := true.
-				invocation invocation returnError: 'unknownSubscriber' with: nil.
+				invocation invocation returnErrorNamed: 'unknownSubscriber'.
 				diag requestTcEnd: false]].
 
 	self inject: MAPProxySendAuthenticationInfoTest new exampleData.

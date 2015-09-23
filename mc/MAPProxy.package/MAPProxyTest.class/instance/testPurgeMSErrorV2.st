@@ -10,7 +10,7 @@ testPurgeMSErrorV2
 			diag onInvoke: [:invocation |
 				invoked := true.
 				operationName := invocation invocation operationName.
-				invocation returnError: 'dataMissing' with: nil.
+				invocation returnErrorNamed: 'dataMissing'.
 				diag requestTcEnd: false]].
 
 	self inject: MAPProxyPurgeMSRequestTest new exampleData.

@@ -7,7 +7,7 @@ testUpdateGprsLocationError
 			diag onInvoke: [:invocation |
 				|    |
 				invoked := true.
-				invocation returnError: 'unexpectedDataValue' with: nil.
+				invocation returnErrorNamed: 'unexpectedDataValue'.
 				diag requestTcEnd: false]].
 
 	self inject: MAPProxyUpdateGprsLocationTest new exampleData.
