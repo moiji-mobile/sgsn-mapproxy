@@ -1,12 +1,13 @@
 as yet unclassified
 start
-	| operationName invocation parameter |
+	| operationName invocation parameter operation |
 	operationName := 'updateGprsLocation'.
-	parameter :=  ASN1Dictionary new
-				at: 'imsi' put: imsi toTBCD;
-				at: 'sgsn-Number' put: sgsnNumber toE164;
-				at: 'sgsn-Address' put: sgsnAddress;
-				yourself.
+	operation := dialogue rosOperationNamed: operationName.
+	parameter := operation argumentValue
+		at: 'imsi' put: imsi toTBCD;
+		at: 'sgsn-Number' put: sgsnNumber toE164;
+		at: 'sgsn-Address' put: sgsnAddress;
+		yourself.
 	dialogue
 		onPAbort: [self failure];
 		onUAbort: [self failure];
@@ -15,7 +16,7 @@ start
 			self extractPDPInfo: isd argument.
 			isd invocation returnResultLast: nil.
 			dialogue requestTcContinue].
-	invocation := dialogue requestTcInvokeNamed: operationName parameters:  parameter class: 1 timeout: 60.
+	invocation := dialogue requestTcInvoke: operation parameters:  parameter class: 1 timeout: 60.
 	invocation
 		onReturn: [self failure];
 		onError: [self failure];

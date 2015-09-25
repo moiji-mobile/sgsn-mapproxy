@@ -8,22 +8,19 @@ testSendAuthenticationInfoV3
 	testEndPoint
 		onDialogue: [:diag |
 			diag onInvoke: [:invocation |
-				| saiRes |
-				saiRes := 'SendAuthenticationInfoResV3' asAsn1ValueTypedIn: diag asn1Model.
-				saiRes selfExpanding: true.
-				(saiRes authenticationSetList tripletList)
-					add: (ASN1Dictionary new
-							at: 'rand' put: #[0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5];
-							at: 'sres' put: #[0 1 2 3];
-							at: 'kc' put: #[0 1 2 3 4 5 6 7];
-							yourself);
-					add: (ASN1Dictionary new
-							at: 'rand' put: #[0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 6];
-							at: 'sres' put: #[0 1 2 4];
-							at: 'kc' put: #[0 1 2 3 4 5 6 8];
-							yourself).
 				invoked := true.
-				invocation returnResultLast: saiRes.
+				invocation returnResultLastUsing: [ :result | 
+					result beSelfExpanding authenticationSetList tripletList
+						addUsing: [ :item |  
+							item
+								at: 'rand' put: #[0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5];
+								at: 'sres' put: #[0 1 2 3];
+								at: 'kc' put: #[0 1 2 3 4 5 6 7] ];
+						addUsing: [ :item | 
+							item
+								at: 'rand' put: #[0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 6];
+								at: 'sres' put: #[0 1 2 4];
+								at: 'kc' put: #[0 1 2 3 4 5 6 8] ]].
 				diag requestTcEnd: false]].
 
 	self inject: MAPProxySendAuthenticationInfoTest new exampleData.

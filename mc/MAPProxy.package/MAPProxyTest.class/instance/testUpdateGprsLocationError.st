@@ -5,7 +5,7 @@ testUpdateGprsLocationError
 	testEndPoint
 		onDialogue: [:diag |
 			diag onInvoke: [:invocation |
-				|    |
+
 				invoked := true.
 				invocation returnErrorNamed: 'unexpectedDataValue'.
 				diag requestTcEnd: false]].

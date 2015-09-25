@@ -5,23 +5,22 @@ testUpdateGprsLocation
 	testEndPoint
 		onDialogue: [:diag |
 			diag onInvoke: [:invocation |
-				| newInvocation data pdp |
+				| newInvocation data operation|
 				argument := invocation argument.
 				invoked := true.
-				data := 'InsertSubscriberDataArgV3' asAsn1ValueTypedIn: testEndPoint asn1Model.
-				data beSelfExpanding.
+				operation := diag rosOperationNamed: 'insertSubscriberDataV3'.
+				data := operation argumentValue beSelfExpanding.
+
 				data gprsSubscriptionData completeDataListIncluded: true.
-				pdp := 'PDP-Context' asAsn1ValueTypedIn: testEndPoint asn1Model.
-				pdp pdp_ContextId: 1.
-				pdp pdp_Type: #[16r01 16r21].
-				pdp qos_Subscribed: #[16r23 16r71 16r1F].
-				pdp apn: #[16r02 16r6F 16r77].
-				data gprsSubscriptionData gprsDataList add: pdp.
-				newInvocation := diag requestTcInvokeNamed: 'insertSubscriberDataV3' parameters:  data class: 1 timeout: 500.
+				data gprsSubscriptionData gprsDataList addUsing: [ : pdp |.
+					pdp pdp_ContextId: 1.
+					pdp pdp_Type: #[16r01 16r21].
+					pdp qos_Subscribed: #[16r23 16r71 16r1F].
+					pdp apn: #[16r02 16r6F 16r77] ].
+				newInvocation := diag requestTcInvoke: operation parameters:  data class: 1 timeout: 500.
 				newInvocation onReturnLast: [:ret | 
-					invocation invocation returnResultLast: (ASN1Dictionary new
-																at: 'hlr-Number' put: '4921313' toE164;
-																yourself).
+					invocation invocation returnResultLastUsing: [ :result | 
+						result at: 'hlr-Number' put: '4921313' toE164 ].
 					diag requestTcEnd: false].
 				diag requestTcContinue]].
 

@@ -6,18 +6,18 @@ testSendAuthenticationInfo
 		onDialogue: [:diag |
 			diag onInvoke: [:invocation |
 				invoked := true.
-				invocation returnResultLast: (ASN1Array new
-					add: (ASN1Dictionary new
-							at: 'rand' put: #[0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5];
-							at: 'sres' put: #[0 1 2 3];
-							at: 'kc' put: #[0 1 2 3 4 5 6 7];
-							yourself);
-					add: (ASN1Dictionary new
-							at: 'rand' put: #[0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 6];
-							at: 'sres' put: #[0 1 2 4];
-							at: 'kc' put: #[0 1 2 3 4 5 6 8];
-							yourself);
-					yourself).
+				invocation returnResultLastUsing: [ :result |
+					result 
+						addUsing: [ :item | 
+							item
+								at: 'rand' put: #[0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5];
+								at: 'sres' put: #[0 1 2 3];
+								at: 'kc' put: #[0 1 2 3 4 5 6 7] ];
+						addUsing: [ :item | 
+							item
+								at: 'rand' put: #[0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 6];
+								at: 'sres' put: #[0 1 2 4];
+								at: 'kc' put: #[0 1 2 3 4 5 6 8] ] ].
 				diag requestTcEnd: false]].
 
 	self inject: MAPProxySendAuthenticationInfoTest new exampleData.
@@ -36,4 +36,4 @@ testSendAuthenticationInfo
 
 	self assert: respMsg authTuples second rand equals: #[0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 6].
 	self assert: respMsg authTuples second sres equals: #[0 1 2 4].
-	self assert: respMsg authTuples second kc equals: #[0 1 2 3 4 5 6 8].
+	self assert: respMsg authTuples second kc equals: #[0 1 2 3 4 5 6 8]. 

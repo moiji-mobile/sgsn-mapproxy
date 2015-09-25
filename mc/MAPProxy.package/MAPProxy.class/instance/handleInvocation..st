@@ -22,7 +22,7 @@ handleInvocation: invocationReceived
 		argument := invocationReceived argument.
 		argument cancellationType isNil
 			ifFalse: [
-				type := {((argument type elementAt: 'cancellationType') atName: argument cancellationType) number}]
+				type := {((argument value type elementAt: 'cancellationType') atName: argument cancellationType) number}]
 			ifTrue: [
 				type := #[0]].
 
