@@ -15,7 +15,7 @@
 		"testSendAuthenticationInfo" : "NorbertHartl 9/25/2015 11:38",
 		"testSendAuthenticationInfoFailure" : "NorbertHartl 9/23/2015 11:07",
 		"testSendAuthenticationInfoV3" : "NorbertHartl 9/25/2015 11:42",
-		"testUpdateGprsLocation" : "NorbertHartl 9/25/2015 11:46",
+		"testUpdateGprsLocation" : "NorbertHartl 9/30/2015 11:39",
 		"testUpdateGprsLocationError" : "NorbertHartl 9/25/2015 11:48",
 		"testUpdateGprsLocationWithFromNetwork" : "HolgerHansPeterFreyther 5/8/2015 17:02",
 		"testUpdateGprsLocationWithMSISDN" : "HolgerHansPeterFreyther 4/23/2015 21:05",

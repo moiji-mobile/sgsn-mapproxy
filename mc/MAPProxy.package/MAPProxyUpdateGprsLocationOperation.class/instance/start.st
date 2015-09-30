@@ -3,7 +3,7 @@ start
 	| operationName invocation parameter operation |
 	operationName := 'updateGprsLocation'.
 	operation := dialogue rosOperationNamed: operationName.
-	parameter := operation argumentValue
+	parameter := operation newArgumentValue
 		at: 'imsi' put: imsi toTBCD;
 		at: 'sgsn-Number' put: sgsnNumber toE164;
 		at: 'sgsn-Address' put: sgsnAddress;

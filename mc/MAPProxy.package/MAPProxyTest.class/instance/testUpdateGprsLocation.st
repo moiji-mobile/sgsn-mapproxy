@@ -9,7 +9,7 @@ testUpdateGprsLocation
 				argument := invocation argument.
 				invoked := true.
 				operation := diag rosOperationNamed: 'insertSubscriberDataV3'.
-				data := operation argumentValue beSelfExpanding.
+				data := operation newArgumentValue beSelfExpanding.
 
 				data gprsSubscriptionData completeDataListIncluded: true.
 				data gprsSubscriptionData gprsDataList addUsing: [ : pdp |.
