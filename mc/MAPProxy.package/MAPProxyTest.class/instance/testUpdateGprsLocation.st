@@ -36,5 +36,6 @@ testUpdateGprsLocation
 	"TODO: Verify the MAP part matching the result. Current version does not do MAP yet"
 	self assert: invoked.
 	self assert: argument sgsn_Address equals: #[4 127 0 0 1].
+	self assert: (argument sgsn_Capability includesKey: 'gprsEnhancementsSupportIndicator').
 	self assert: respMsg pdpInfos size equals: 1.
 	self assert: respMsg hlrNumber fromE164 equals: '4921313'

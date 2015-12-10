@@ -8,6 +8,8 @@ start
 		at: 'sgsn-Number' put: sgsnNumber toE164;
 		at: 'sgsn-Address' put: sgsnAddress;
 		yourself.
+	(parameter expandFieldNamed: 'sgsn-Capability')
+		at: 'gprsEnhancementsSupportIndicator' put: nil.
 	dialogue
 		onPAbort: [self failure];
 		onUAbort: [self failure];
