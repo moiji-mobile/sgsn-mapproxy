@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfMAPProxy",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfMAPProxy",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
