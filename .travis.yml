@@ -1,0 +1,23 @@
+language: smalltalk
+sudo: false
+
+os:
+- linux
+
+install:
+- pip install --user benchupload
+
+
+smalltalk:
+- Pharo-3.0
+- Pharo-4.0
+- Pharo-5.0
+
+script:
+- $SMALLTALK_CI_HOME/run.sh
+
+after_success:
+ - python -mbenchupload --dir=$SMALLTALK_CI_BUILD
+
+after_failure:
+ - python -mbenchupload --dir=$SMALLTALK_CI_BUILD
