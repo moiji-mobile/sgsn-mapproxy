@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"inject:" : "HolgerHansPeterFreyther 12/14/2014 20:46",
-		"setUp" : "HolgerHansPeterFreyther 4/22/2015 11:45",
+		"setUp" : "smalltalkCI 3/1/2017 10:06",
 		"testCancelLocation" : "NorbertHartl 9/22/2015 14:51",
 		"testCancelLocationV3" : "NorbertHartl 9/22/2015 14:51",
 		"testCancelLocationV3WithCancellationType" : "NorbertHartl 9/22/2015 14:51",

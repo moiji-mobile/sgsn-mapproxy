@@ -11,7 +11,8 @@ setUp
 
 	testEndPoint := TCAPTestServiceEndPoint new
 		asn1Model: MAPProxy asn1Model.
-	vlrEndPoint := TCAPTestServiceEndPoint newHLR
+	vlrEndPoint := TCAPTestServiceEndPoint new
+		factory: TCAPObjectFactory new;
 		asn1Model: MAPProxy asn1Model.
 
 	mapProxy endPoint: vlrEndPoint.
