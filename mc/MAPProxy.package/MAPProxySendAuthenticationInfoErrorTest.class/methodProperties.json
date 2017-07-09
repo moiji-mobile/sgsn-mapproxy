@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"exampleData" : "HolgerHansPeterFreyther 12/14/2014 19:26",
-		"testRoundtrip" : "HolgerHansPeterFreyther 12/14/2014 19:26" } }
+		"testRoundtrip" : "HolgerHansPeterFreyther 12/14/2014 19:26",
+		"exampleData" : "HolgerHansPeterFreyther 12/14/2014 19:26"
+	},
+	"class" : { }
+}

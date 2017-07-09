@@ -12,5 +12,6 @@ extractPDPInfo: anArgument
 			contextId: each pdp_ContextId;
 			type: each pdp_Type;
 			apn: each apn;
-			qualityOfService: (self extractQoS: each).
+			qualityOfService: (self extractQoS: each);
+			chargingCharacteristics: (self getChargingCharacteristics: each).
 		pdpInfos add: pdp].

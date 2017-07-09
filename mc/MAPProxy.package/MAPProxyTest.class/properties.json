@@ -1,18 +1,17 @@
 {
-	"category" : "MAPProxy-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "MAPProxy-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"readDelegate",
 		"mapProxy",
 		"testEndPoint",
 		"vlrEndPoint",
-		"socketServer" ],
+		"socketServer"
+	],
 	"name" : "MAPProxyTest",
-	"pools" : [
-		 ],
-	"super" : "TestCase",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,18 +1,17 @@
 {
-	"category" : "MAPProxy-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MAPProxy-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"imsiRangeMatch",
 		"prefix",
 		"operationForAuthentication",
 		"operationForPurgeMS",
-		"callingSSN" ],
+		"callingSSN"
+	],
 	"name" : "MAPProxyGT",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,15 +1,14 @@
 {
-	"category" : "MAPProxy-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "HolgerHansPeterFreyther 3/6/2016 14:29",
+	"super" : "Object",
+	"category" : "MAPProxy-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"mapProxy",
-		"logger" ],
+		"logger"
+	],
 	"name" : "MAPProxyRuleParser",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

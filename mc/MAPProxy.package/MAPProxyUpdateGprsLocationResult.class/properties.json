@@ -1,17 +1,17 @@
 {
-	"category" : "MAPProxy-Messages",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "MAPProxyMessageBase",
+	"category" : "MAPProxy-Messages",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"pdpInfoComplete",
 		"pdpInfos",
 		"msisdn",
-		"hlrNumber" ],
+		"hlrNumber",
+		"chargingCharacteristics"
+	],
 	"name" : "MAPProxyUpdateGprsLocationResult",
-	"pools" : [
-		 ],
-	"super" : "MAPProxyMessageBase",
-	"type" : "normal" }
+	"type" : "normal"
+}

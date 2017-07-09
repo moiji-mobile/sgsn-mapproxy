@@ -1,8 +1,11 @@
 {
-	"class" : {
-		"messageType" : "HolgerHansPeterFreyther 12/14/2014 15:36",
-		"tlvDescription" : "HolgerHansPeterFreyther 1/28/2015 18:51" },
 	"instance" : {
-		"addAuthTuple:" : "HolgerHansPeterFreyther 12/14/2014 20:18",
+		"initialize" : "HolgerHansPeterFreyther 12/14/2014 20:18",
 		"authTuples" : "HolgerHansPeterFreyther 12/14/2014 15:55",
-		"initialize" : "HolgerHansPeterFreyther 12/14/2014 20:18" } }
+		"addAuthTuple:" : "HolgerHansPeterFreyther 12/14/2014 20:18"
+	},
+	"class" : {
+		"tlvDescription" : "HolgerHansPeterFreyther 1/28/2015 18:51",
+		"messageType" : "HolgerHansPeterFreyther 12/14/2014 15:36"
+	}
+}

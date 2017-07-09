@@ -1,17 +1,17 @@
 {
-	"category" : "MAPProxy-Messages",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MAPProxy-Messages",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"contextId",
 		"type",
 		"apn",
-		"qualityOfService" ],
+		"qualityOfService",
+		"chargingCharacteristics"
+	],
 	"name" : "MAPProxyPDPInfo",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

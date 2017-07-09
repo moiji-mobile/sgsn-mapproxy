@@ -1,14 +1,13 @@
 {
-	"category" : "MAPProxy-Messages",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"mobileIdentity" ],
-	"name" : "MAPProxyMessageBase",
-	"pools" : [
-		 ],
 	"super" : "TLVParserBase",
-	"type" : "normal" }
+	"category" : "MAPProxy-Messages",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mobileIdentity"
+	],
+	"name" : "MAPProxyMessageBase",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+as yet unclassified
+getChargingCharacteristics: aPDPContext
+	^aPDPContext pdp_ChargingCharacteristics

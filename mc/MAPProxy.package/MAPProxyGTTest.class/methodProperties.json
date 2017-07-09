@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testReplace" : "HolgerHansPeterFreyther 12/19/2014 18:26",
-		"testSetup" : "HolgerHansPeterFreyther 3/19/2015 16:27" } }
+		"testSetup" : "HolgerHansPeterFreyther 3/19/2015 16:27",
+		"testReplace" : "HolgerHansPeterFreyther 12/19/2014 18:26"
+	},
+	"class" : { }
+}

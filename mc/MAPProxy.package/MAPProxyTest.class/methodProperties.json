@@ -1,23 +1,25 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"inject:" : "HolgerHansPeterFreyther 12/14/2014 20:46",
-		"setUp" : "smalltalkCI 3/1/2017 10:06",
-		"testCancelLocation" : "NorbertHartl 9/22/2015 14:51",
-		"testCancelLocationV3" : "NorbertHartl 9/22/2015 14:51",
-		"testCancelLocationV3WithCancellationType" : "NorbertHartl 9/22/2015 14:51",
-		"testPurgeMS" : "HolgerHansPeterFreyther 5/8/2015 09:56",
+		"testUpdateGprsLocationWithMSISDN" : "HolgerHansPeterFreyther 4/23/2015 21:05",
+		"testUpdateGprsLocationWithMSISDNLittleQoSCharging" : "HolgerHansPeterFreyther 7/9/2017 10:48",
 		"testPurgeMSError" : "NorbertHartl 9/23/2015 11:07",
-		"testPurgeMSErrorV2" : "NorbertHartl 9/23/2015 11:07",
-		"testPurgeMSV2" : "HolgerHansPeterFreyther 5/8/2015 09:56",
-		"testPurgeMSWithHLRNumber" : "HolgerHansPeterFreyther 5/17/2015 22:29",
-		"testSendAuthenticationInfo" : "NorbertHartl 9/25/2015 11:38",
-		"testSendAuthenticationInfoFailure" : "NorbertHartl 9/23/2015 11:07",
+		"inject:" : "HolgerHansPeterFreyther 12/14/2014 20:46",
 		"testSendAuthenticationInfoV3" : "NorbertHartl 9/25/2015 11:42",
 		"testUpdateGprsLocation" : "HolgerHansPeterFreyther 12/10/2015 11:30",
-		"testUpdateGprsLocationError" : "NorbertHartl 9/25/2015 11:48",
 		"testUpdateGprsLocationWithFromNetwork" : "HolgerHansPeterFreyther 5/8/2015 17:02",
-		"testUpdateGprsLocationWithMSISDN" : "HolgerHansPeterFreyther 4/23/2015 21:05",
+		"testUpdateGprsLocationError" : "NorbertHartl 9/25/2015 11:48",
+		"setUp" : "smalltalkCI 3/1/2017 10:06",
+		"testSendAuthenticationInfo" : "NorbertHartl 9/25/2015 11:38",
+		"testSendAuthenticationInfoFailure" : "NorbertHartl 9/23/2015 11:07",
+		"testCancelLocationV3" : "NorbertHartl 9/22/2015 14:51",
 		"testUpdateGprsLocationWithMSISDNLittleQoS" : "HolgerHansPeterFreyther 4/23/2015 21:06",
-		"testWrongMessage" : "HolgerHansPeterFreyther 12/14/2014 19:26" } }
+		"testWrongMessage" : "HolgerHansPeterFreyther 12/14/2014 19:26",
+		"testCancelLocationV3WithCancellationType" : "NorbertHartl 9/22/2015 14:51",
+		"testCancelLocation" : "NorbertHartl 9/22/2015 14:51",
+		"testPurgeMSWithHLRNumber" : "HolgerHansPeterFreyther 5/17/2015 22:29",
+		"testPurgeMS" : "HolgerHansPeterFreyther 5/8/2015 09:56",
+		"testPurgeMSErrorV2" : "NorbertHartl 9/23/2015 11:07",
+		"testPurgeMSV2" : "HolgerHansPeterFreyther 5/8/2015 09:56"
+	},
+	"class" : { }
+}

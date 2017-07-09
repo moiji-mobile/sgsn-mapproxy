@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"mapProxy:" : "HolgerHansPeterFreyther 12/14/2014 21:05",
-		"newDelegateClass" : "HolgerHansPeterFreyther 12/14/2014 21:05" } }
+		"newDelegateClass" : "HolgerHansPeterFreyther 12/14/2014 21:05"
+	},
+	"class" : { }
+}

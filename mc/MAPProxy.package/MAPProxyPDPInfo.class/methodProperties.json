@@ -1,14 +1,19 @@
 {
-	"class" : {
-		"attributeTlvDescription" : "HolgerHansPeterFreyther 1/26/2015 22:54",
-		"readFrom:with:" : "HolgerHansPeterFreyther 5/5/2015 21:42",
-		"write:on:with:" : "HolgerHansPeterFreyther 5/5/2015 21:42" },
 	"instance" : {
-		"apn" : "HolgerHansPeterFreyther 1/28/2015 14:17",
 		"apn:" : "HolgerHansPeterFreyther 1/26/2015 22:57",
 		"contextId" : "HolgerHansPeterFreyther 1/28/2015 14:17",
-		"contextId:" : "HolgerHansPeterFreyther 1/26/2015 22:56",
-		"qualityOfService" : "HolgerHansPeterFreyther 4/22/2015 22:44",
+		"apn" : "HolgerHansPeterFreyther 1/28/2015 14:17",
 		"qualityOfService:" : "HolgerHansPeterFreyther 4/22/2015 22:35",
+		"qualityOfService" : "HolgerHansPeterFreyther 4/22/2015 22:44",
+		"contextId:" : "HolgerHansPeterFreyther 1/26/2015 22:56",
+		"chargingCharacteristics" : "HolgerHansPeterFreyther 7/9/2017 10:34",
 		"type" : "HolgerHansPeterFreyther 1/28/2015 14:17",
-		"type:" : "HolgerHansPeterFreyther 1/26/2015 22:57" } }
+		"chargingCharacteristics:" : "HolgerHansPeterFreyther 7/9/2017 10:17",
+		"type:" : "HolgerHansPeterFreyther 1/26/2015 22:57"
+	},
+	"class" : {
+		"readFrom:with:" : "HolgerHansPeterFreyther 7/9/2017 10:23",
+		"write:on:with:" : "HolgerHansPeterFreyther 7/9/2017 10:22",
+		"attributeTlvDescription" : "HolgerHansPeterFreyther 1/26/2015 22:54"
+	}
+}

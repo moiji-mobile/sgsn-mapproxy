@@ -1,0 +1,3 @@
+as yet unclassified
+chargingCharacteristics: aChargingCharacteristics 
+	chargingCharacteristics := aChargingCharacteristics

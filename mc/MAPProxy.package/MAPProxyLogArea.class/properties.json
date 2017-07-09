@@ -1,14 +1,11 @@
 {
-	"category" : "MAPProxy-Logging",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "MAPProxyLogArea",
-	"pools" : [
-		 ],
 	"super" : "LogArea",
-	"type" : "normal" }
+	"category" : "MAPProxy-Logging",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MAPProxyLogArea",
+	"type" : "normal"
+}

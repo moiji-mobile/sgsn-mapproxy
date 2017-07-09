@@ -1,5 +1,8 @@
 {
-	"class" : {
-		"messageType" : "HolgerHansPeterFreyther 12/16/2014 22:54" },
 	"instance" : {
-		"dispatchMAPProxyOn:" : "HolgerHansPeterFreyther 12/16/2014 22:59" } }
+		"dispatchMAPProxyOn:" : "HolgerHansPeterFreyther 12/16/2014 22:59"
+	},
+	"class" : {
+		"messageType" : "HolgerHansPeterFreyther 12/16/2014 22:54"
+	}
+}

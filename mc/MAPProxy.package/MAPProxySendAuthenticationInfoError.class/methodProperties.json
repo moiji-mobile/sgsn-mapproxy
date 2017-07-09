@@ -1,7 +1,10 @@
 {
-	"class" : {
-		"messageType" : "HolgerHansPeterFreyther 12/14/2014 14:50",
-		"tlvDescription" : "HolgerHansPeterFreyther 1/28/2015 18:51" },
 	"instance" : {
 		"cause" : "HolgerHansPeterFreyther 12/14/2014 15:23",
-		"cause:" : "HolgerHansPeterFreyther 12/16/2014 22:48" } }
+		"cause:" : "HolgerHansPeterFreyther 12/16/2014 22:48"
+	},
+	"class" : {
+		"tlvDescription" : "HolgerHansPeterFreyther 1/28/2015 18:51",
+		"messageType" : "HolgerHansPeterFreyther 12/14/2014 14:50"
+	}
+}

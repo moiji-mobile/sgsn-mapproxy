@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"testRoundtrip" : "HolgerHansPeterFreyther 1/28/2015 18:46",
 		"exampleData" : "HolgerHansPeterFreyther 1/28/2015 18:25",
 		"exampleDataWithHLRNumber" : "HolgerHansPeterFreyther 5/17/2015 21:17",
-		"testRoundtrip" : "HolgerHansPeterFreyther 1/28/2015 18:46",
-		"testRoundtripWithHLRNumber" : "HolgerHansPeterFreyther 5/17/2015 22:29" } }
+		"testRoundtripWithHLRNumber" : "HolgerHansPeterFreyther 5/17/2015 22:29"
+	},
+	"class" : { }
+}

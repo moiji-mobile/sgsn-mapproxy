@@ -1,10 +1,10 @@
 {
-	"category" : "MAPProxy-Operations",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MAPProxy-Operations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"dialogue",
 		"callingSCCPAddress",
@@ -12,9 +12,8 @@
 		"imsi",
 		"onFailure",
 		"onSuccess",
-		"logger" ],
+		"logger"
+	],
 	"name" : "MAPProxyOperation",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

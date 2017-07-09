@@ -1,14 +1,13 @@
 {
-	"category" : "MAPProxy-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"mapProxy" ],
-	"name" : "MAPProxyServerDelegate",
-	"pools" : [
-		 ],
 	"super" : "OsmoMessageServerDelegate",
-	"type" : "normal" }
+	"category" : "MAPProxy-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mapProxy"
+	],
+	"name" : "MAPProxyServerDelegate",
+	"type" : "normal"
+}

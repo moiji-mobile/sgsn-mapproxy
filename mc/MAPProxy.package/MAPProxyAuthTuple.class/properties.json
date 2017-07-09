@@ -1,16 +1,15 @@
 {
-	"category" : "MAPProxy-Messages",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MAPProxy-Messages",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"rand",
 		"sres",
-		"kc" ],
+		"kc"
+	],
 	"name" : "MAPProxyAuthTuple",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

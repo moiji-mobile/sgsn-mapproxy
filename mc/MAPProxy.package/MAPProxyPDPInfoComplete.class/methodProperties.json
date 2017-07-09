@@ -1,7 +1,8 @@
 {
+	"instance" : { },
 	"class" : {
 		"readFrom:with:" : "HolgerHansPeterFreyther 1/28/2015 14:55",
 		"tlvDescription" : "HolgerHansPeterFreyther 12/16/2014 23:12",
-		"write:on:with:" : "HolgerHansPeterFreyther 1/28/2015 14:55" },
-	"instance" : {
-		 } }
+		"write:on:with:" : "HolgerHansPeterFreyther 1/28/2015 14:55"
+	}
+}

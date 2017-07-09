@@ -16,6 +16,7 @@ start
 		onInvoke: [:isd |
 			self extractMSISDN: isd argument.
 			self extractPDPInfo: isd argument.
+			self extractCharging: isd argument.
 			isd invocation returnResultLast: nil.
 			dialogue requestTcContinue].
 	invocation := dialogue requestTcInvoke: operation parameters:  parameter class: 1 timeout: 60.

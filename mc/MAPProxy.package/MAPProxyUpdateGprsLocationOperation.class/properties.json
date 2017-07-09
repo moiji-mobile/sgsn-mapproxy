@@ -1,18 +1,18 @@
 {
-	"category" : "MAPProxy-Operations",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "MAPProxyOperation",
+	"category" : "MAPProxy-Operations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"pdpInfos",
 		"pdpInfoComplete",
 		"sgsnNumber",
 		"sgsnAddress",
-		"msisdn" ],
+		"msisdn",
+		"chargingCharacteristics"
+	],
 	"name" : "MAPProxyUpdateGprsLocationOperation",
-	"pools" : [
-		 ],
-	"super" : "MAPProxyOperation",
-	"type" : "normal" }
+	"type" : "normal"
+}

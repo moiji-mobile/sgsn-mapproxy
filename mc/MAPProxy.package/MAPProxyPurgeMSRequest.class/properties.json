@@ -1,14 +1,13 @@
 {
-	"category" : "MAPProxy-Messages",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"hlrNumber" ],
-	"name" : "MAPProxyPurgeMSRequest",
-	"pools" : [
-		 ],
 	"super" : "MAPProxyMessageBase",
-	"type" : "normal" }
+	"category" : "MAPProxy-Messages",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"hlrNumber"
+	],
+	"name" : "MAPProxyPurgeMSRequest",
+	"type" : "normal"
+}

@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"handleGSUP:" : "HolgerHansPeterFreyther 12/14/2014 20:50",
-		"inject:with:" : "HolgerHansPeterFreyther 12/14/2014 20:47",
-		"mapProxy" : "HolgerHansPeterFreyther 12/14/2014 19:30",
-		"mapProxy:" : "HolgerHansPeterFreyther 12/14/2014 19:30",
 		"onNewConnection:" : "HolgerHansPeterFreyther 12/16/2014 20:44",
-		"sendGSUP:" : "HolgerHansPeterFreyther 12/14/2014 20:24" } }
+		"mapProxy:" : "HolgerHansPeterFreyther 12/14/2014 19:30",
+		"sendGSUP:" : "HolgerHansPeterFreyther 12/14/2014 20:24",
+		"mapProxy" : "HolgerHansPeterFreyther 12/14/2014 19:30",
+		"handleGSUP:" : "HolgerHansPeterFreyther 12/14/2014 20:50",
+		"inject:with:" : "HolgerHansPeterFreyther 12/14/2014 20:47"
+	},
+	"class" : { }
+}

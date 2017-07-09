@@ -5,4 +5,5 @@ tlvDescription
 		add: (MAPProxyPDPInfo attributeTlvDescription beOptional; yourself);
 		add: MAPProxyISDNAddressString tlvDescription;
 		add: MAPProxyHLRNumber tlvDescription;
+		add: self chargingCharacteristicsTlvDescription;
 		yourself

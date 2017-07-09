@@ -15,4 +15,5 @@ returnUpdateGprsLocationResultFor: aRequest with: anOperation on: aDelegate resu
 		result pdpInfoComplete: true].
 	result pdpInfos: anOperation pdpInfos.
 	result msisdn: anOperation msisdn.
+	result chargingCharacteristics: anOperation chargingCharacteristics.
 	aDelegate sendGSUP: result toMessage asByteArray.
