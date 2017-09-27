@@ -1,7 +1,7 @@
 as yet unclassified
 handleLine: aLine
 	| parts imsi replace ssn operation gt |
-	parts := aLine subStrings: ','.
+	parts := aLine substrings: ','.
 	parts size = 4 ifFalse: [
 		logger logError: 'Line does not have right amount of columns' with: { 'line' -> aLine. 'size' -> parts size }.
 		^self].
