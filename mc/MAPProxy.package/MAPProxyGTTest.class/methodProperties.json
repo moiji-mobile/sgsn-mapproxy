@@ -1,6 +1,8 @@
 {
 	"instance" : {
 		"testSetup" : "HolgerHansPeterFreyther 3/19/2015 16:27",
+		"testNoTruncation" : "HolgerHansPeterFreyther 9/27/2017 18:08",
+		"testLeaveFront" : "HolgerHansPeterFreyther 9/27/2017 20:16",
 		"testReplace" : "HolgerHansPeterFreyther 12/19/2014 18:26"
 	},
 	"class" : { }
